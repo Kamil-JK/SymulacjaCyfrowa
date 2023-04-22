@@ -1,6 +1,8 @@
 import queue
 import numpy as np
-from User import User
+from Event import Event
+from GenerateEvent import GenerateEvent
+from ReportEvent import ReportEvent
 
 class Network:
 
@@ -9,14 +11,19 @@ class Network:
     userStartPosition = 2000
     userList = []
     userBuffer = queue.Queue()
+    eventList = []
     
     def __init__(self):
         print("Network created")
         
     def createUser():
-        speed = np.random.uniform(5,50) #m/s             
-        Network.userList.append(User(speed))
-        print("Number of users in the system: "+ str(len(Network.userList)))
+        v = np.random.uniform()
+        print("User created with speed v")
     
     def destroyUser():
-        print("")
+        print("Destroy user")
+        
+    def mainLoop():
+        print("Loop")
+        #po kolei execute tych eventów
+        
