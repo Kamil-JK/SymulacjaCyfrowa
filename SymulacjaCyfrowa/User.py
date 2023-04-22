@@ -1,4 +1,7 @@
 class User:
 
-    def __init__(self):
-        print("User created")
+    speed = 0
+
+    def __init__(self, speed):
+        print("User created with speed: " + str(speed))
+        self.speed = speed

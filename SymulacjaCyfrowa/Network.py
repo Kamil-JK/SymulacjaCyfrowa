@@ -1,4 +1,6 @@
 import queue
+import numpy as np
+from User import User
 
 class Network:
 
@@ -12,7 +14,9 @@ class Network:
         print("Network created")
         
     def createUser():
-        print("User created with speed v")
+        speed = np.random.uniform(5,50) #m/s             
+        Network.userList.append(User(speed))
+        print("Number of users in the system: "+ str(len(Network.userList)))
     
     def destroyUser():
         print("")
