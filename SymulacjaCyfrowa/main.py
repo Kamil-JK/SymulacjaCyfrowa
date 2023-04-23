@@ -1,7 +1,4 @@
-from Network import Network 
+from Simulator import Simulator 
 
-network = Network()
-
-for x in range(6):
-  print(x)
-  Network.createUser()
+simulator = Simulator()
+simulator.mainLoop()
