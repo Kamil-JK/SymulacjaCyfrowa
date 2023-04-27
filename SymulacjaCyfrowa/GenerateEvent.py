@@ -6,7 +6,7 @@ import numpy as np
 class GenerateEvent(Event):    
 
     def __init__(self, network, eventList, executionTime, userID):
-        
+        pass
     
     def execute(self):
         print("Generate event")
