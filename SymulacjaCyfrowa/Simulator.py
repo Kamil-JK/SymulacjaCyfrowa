@@ -3,7 +3,7 @@ from GenerateEvent import GenerateEvent
 from ReportEvent import ReportEvent
 from Network import Network 
 import numpy as np
-
+from sortedcontainers import SortedList
 
 #    M2 Planowanie zdarzeń
 #l – stała równa 5000 m
@@ -20,14 +20,15 @@ import numpy as np
 
 class Simulator:
 
-  eventList = []
+  eventList = SortedList()
   clock = 0
+  firstUserID = 0
   network = Network()
 
   def mainLoop(self):
 
-    executionTime = 5 + 30 * np.random.uniform() #np.random.exponential() potem
-    self.eventList.append(GenerateEvent(self.network, executionTime))
+    executionTime = 5 + 30 * np.random.uniform()
+    self.eventList.add(GenerateEvent(self.network, self.eventList, executionTime, self.firstUserID))
 
     while self.clock <= 20:
       #wrzuć nowy even do listy (zaplanuj)
@@ -36,27 +37,8 @@ class Simulator:
 
       #execute eventu z najmniejszym czasem i wywal go w pętli aż nie będzie ujemnych
       while self.eventList[-1].getExecutionTime() < 0:
-        if self.eventList[-1].eventType() == "GenerateEvent":
-          self.eventList[-1].execute()
-          reportExecutionTime = self.eventList[-1].getExecutionTime() + 20
-          self.eventList.pop(-1)
-          self.eventList.append(ReportEvent(self.network, reportExecutionTime))
-          
-          #Nowy generateEvent
-          executionTime = 5 + 30 * np.random.uniform() #np.random.exponential() potem
-          self.eventList.append(GenerateEvent(self.network, executionTime))
-          self.eventList.sort(reverse=True, key = Event.getExecutionTime)
-
-        #Czy ten report ma być powtarzany dla każdego usera co 20s?
-        elif self.eventList[-1].eventType() == "ReportEvent":
-          self.eventList[-1].execute()
-          reportExecutionTime = self.eventList[-1].getExecutionTime() + 20
-          self.eventList.pop(-1)
-          self.eventList.append(ReportEvent(self.network, reportExecutionTime))
-          self.eventList.sort(reverse=True, key = Event.getExecutionTime)
-          
-          
-
+        self.eventList.pop().execute()
+                  
 
       #czas--
       for event in self.eventList:

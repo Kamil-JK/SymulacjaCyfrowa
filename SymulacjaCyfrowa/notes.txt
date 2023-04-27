@@ -1,0 +1,28 @@
+Generateevent – generowanie użytkowników
+I reportevent  - cała logika
+mają execute
+Posortowana struktura danych python przechowuje eventy
+Eventlist.push(gen/rep)
+
+Sorted containers sortedlist wyrażenie lambda
+sl = SortedList()
+>>> isinstance(sl, SortedList)
+True
+>>> sl = SortedList(key=lambda x: -x)
+>>> isinstance(sl, SortedList)
+True
+>>> isinstance(sl, SortedKeyList)
+True
+
+
+Może być z biblioteki ale musi być obiekt z podaniem ziarna, lepiej samemu zrobić
+Na początku wybrać jakieś ziarno np 44
+Dla każdej symulacji są 4 obiekty generator, 4 ziarna
+V,tau,s_bs1,s_bs2 np.
+V seed=44
+Tau seed = 12
+…
+Kolejne ziarna różne o 100000 stanów (losowań do przodu)
+
+
+

@@ -2,10 +2,11 @@ import math
 
 class User:
 
-    def __init__(self, speed, position):
+    def __init__(self, speed, position, userID):
         print("User created with speed: " + str(speed))
         self.speed = speed
         self.position = position
+        self.userID = userID
 
     def report(self, time):
         self.position = self.position + self.speed * time
@@ -16,3 +17,6 @@ class User:
             self.connectedTo = "BS1"
         else:
             self.connectedTo = "BS2"
+
+
+
