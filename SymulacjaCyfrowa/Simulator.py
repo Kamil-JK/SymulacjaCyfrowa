@@ -4,6 +4,7 @@ from ReportEvent import ReportEvent
 from Network import Network 
 import numpy as np
 
+
 #    M2 Planowanie zdarzeń
 #l – stała równa 5000 m
 #x – stała równa 2000 m
@@ -46,6 +47,7 @@ class Simulator:
           self.eventList.append(GenerateEvent(self.network, executionTime))
           self.eventList.sort(reverse=True, key = Event.getExecutionTime)
 
+        #Czy ten report ma być powtarzany dla każdego usera co 20s?
         elif self.eventList[-1].eventType() == "ReportEvent":
           self.eventList[-1].execute()
           reportExecutionTime = self.eventList[-1].getExecutionTime() + 20

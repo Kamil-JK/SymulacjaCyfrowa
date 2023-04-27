@@ -21,7 +21,7 @@ class Network:
         self.userList.append(User(v, self.userStartPosition))
     
     def reportUser(self):
-        self.userList[-1].report()
+        self.userList[-1].report(20)
     
     def destroyUser(self):
         print("Destroy user")
