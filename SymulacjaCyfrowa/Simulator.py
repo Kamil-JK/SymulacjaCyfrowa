@@ -4,7 +4,7 @@ from ReportEvent import ReportEvent
 from Network import Network 
 import numpy as np
 
-#M2 Planowanie zdarzeń
+#    M2 Planowanie zdarzeń
 #l – stała równa 5000 m
 #x – stała równa 2000 m
 #v - zmienna losowa o rozkładzie jednostajnym na przedziale [5, 50] m/s
