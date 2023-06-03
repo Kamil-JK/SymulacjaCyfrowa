@@ -1,22 +1,37 @@
 from Event import Event
-from ReportEvent import ReportEvent
 from sortedcontainers import SortedList
 import numpy as np
 
 class GenerateEvent(Event):    
 
     def __init__(self, network, eventList, executionTime, userID):
-        pass
+        super().__init__(network, eventList, executionTime, userID)
     
     def execute(self):
-        print("Generate event")
+        print("GenerateEvent executing, userID: " + str(self.userID) + ", time: " + str(self.executionTime))
         self.network.createUser(self.userID)
         #Nowy reportEvent po czase 20
-        reportTime = 20
+        reportTime = 10 * np.random.uniform()
         self.eventList.add(ReportEvent(self.network, self.eventList, reportTime, self.userID))
         #Nowy generateEvent po losowym czasie
-        generateTime = 5 + 30 * np.random.uniform()
+        generateTime = 3 + 20 * np.random.uniform()
         self.eventList.add(GenerateEvent(self.network, self.eventList, generateTime, self.userID + 1))
 
     def eventType(self):
-        return "GenerateEvent"
+        return "GenerateEvent, userID: " + str(self.userID) + ", time: " + str(self.executionTime)
+    
+
+class ReportEvent(Event):
+    
+    def __init__(self, network, eventList, executionTime, userID):
+        super().__init__(network, eventList, executionTime, userID)
+
+    def execute(self):
+        print("Report event executing, userID: " + str(self.userID) + ", time: " + str(self.executionTime))
+        self.network.reportUser(self.userID)
+        #Nowy reportEvent po czase 20
+        reportTime = 10 * np.random.uniform()
+        self.eventList.add(ReportEvent(self.network, self.eventList, reportTime, self.userID))
+        
+    def eventType(self):
+        return "ReportEvent, userID: " + str(self.userID) + ", time: " + str(self.executionTime)

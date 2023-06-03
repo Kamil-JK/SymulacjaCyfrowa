@@ -1,6 +1,6 @@
 from Event import Event
 from GenerateEvent import GenerateEvent
-from ReportEvent import ReportEvent
+from GenerateEvent import ReportEvent
 from Network import Network 
 import numpy as np
 from sortedcontainers import SortedList
@@ -20,17 +20,18 @@ from sortedcontainers import SortedList
 
 class Simulator:
 
-  eventList = SortedList()
+  #eventList = SortedList(key=lambda x: -x.getExecutionTime())
+  eventList = SortedList(key=lambda x: -x.getExecutionTime())
   clock = 0
   firstUserID = 0
   network = Network()
 
   def mainLoop(self):
 
-    executionTime = 5 + 30 * np.random.uniform()
+    executionTime = 3 + 20 * np.random.uniform()
     self.eventList.add(GenerateEvent(self.network, self.eventList, executionTime, self.firstUserID))
 
-    while self.clock <= 20:
+    while self.clock <= 150:
       #wrzuć nowy even do listy (zaplanuj)
       print("Clock: " + str(self.clock) + " User length: " + str(self.network.userListLength()))
       self.clock = self.clock + 1
@@ -38,6 +39,10 @@ class Simulator:
       #execute eventu z najmniejszym czasem i wywal go w pętli aż nie będzie ujemnych
       while self.eventList[-1].getExecutionTime() < 0:
         self.eventList.pop().execute()
+
+        print("Event list: ")
+        for event in self.eventList:
+          print(event.eventType())
                   
 
       #czas--

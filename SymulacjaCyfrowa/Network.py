@@ -7,7 +7,7 @@ class Network:
     maxUserNumber = 60
     distanceBS = 5000
     userStartPosition = 2000
-    userList = {}
+    userList = []
     userBuffer = queue.Queue()
     
     
