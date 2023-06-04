@@ -47,4 +47,4 @@ class Simulator:
 
       #czas--
       for event in self.eventList:
-        event.updateTime(3)
+        event.updateTime(1)
