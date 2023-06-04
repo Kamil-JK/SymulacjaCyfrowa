@@ -1,6 +1,4 @@
-from Event import Event
 from GenerateEvent import GenerateEvent
-from GenerateEvent import ReportEvent
 from Network import Network 
 import numpy as np
 from sortedcontainers import SortedList
@@ -25,6 +23,9 @@ class Simulator:
   clock = 0
   firstUserID = 0
   network = Network()
+
+  def __init__(self, seed):
+        self.seed = seed
 
   def mainLoop(self):
 

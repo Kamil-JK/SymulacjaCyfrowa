@@ -1,7 +1,8 @@
 from Simulator import Simulator 
-from sortedcontainers import SortedList
 from os import system
+from RandomGenerator import RandomGenerator 
 
 system('cls')
-simulator = Simulator()
+seed = 44
+simulator = Simulator(seed)
 simulator.mainLoop()
