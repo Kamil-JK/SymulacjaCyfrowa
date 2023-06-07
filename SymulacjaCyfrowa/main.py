@@ -3,6 +3,24 @@ from os import system
 from RandomGenerator import RandomGenerator 
 
 system('cls')
-seed = 44
-simulator = Simulator(seed)
-simulator.mainLoop()
+
+# generator = RandomGenerator(10000, 0.1)
+# print(generator.randExp())
+# generator = RandomGenerator(5245245, 0.2)
+# print(generator.randExp())
+# generator = RandomGenerator(234234, 0.3)
+# print(generator.randExp())
+# generator = RandomGenerator(64362, 0.4)
+# print(generator.randExp())
+# generator = RandomGenerator(2345, 0.5)
+# print(generator.randExp())
+# generator = RandomGenerator(64363, 0.6)
+# print(generator.randExp())
+
+
+for simulationNumber in range(1):
+    simulator = Simulator(simulationNumber, 0.2)
+    simulator.mainLoop()
+for simulationNumber in range(1):
+    simulator = Simulator(simulationNumber, 0.2)
+    simulator.mainLoop()

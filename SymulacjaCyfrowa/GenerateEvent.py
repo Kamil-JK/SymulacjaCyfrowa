@@ -10,10 +10,10 @@ class GenerateEvent(Event):
         print("GenerateEvent executing, userID: " + str(self.userID) + ", time: " + str(self.executionTime))
         self.network.createUser(self.userID)
         #Nowy reportEvent po czase 20
-        reportTime = 10
+        reportTime = 20  + self.executionTime
         self.eventList.add(ReportEvent(self.network, self.eventList, reportTime, self.userID))
         #Nowy generateEvent po losowym czasie
-        generateTime = 3 + 10 * np.random.uniform()
+        generateTime = 3 + 10 * np.random.uniform() + self.executionTime
         self.eventList.add(GenerateEvent(self.network, self.eventList, generateTime, self.userID + 1))
 
     def eventType(self):
@@ -29,7 +29,7 @@ class ReportEvent(Event):
         print("Report event executing, userID: " + str(self.userID) + ", time: " + str(self.executionTime))
         self.network.reportUser(self.userID)
         #Nowy reportEvent po czase 20
-        reportTime = 10
+        reportTime = 20  + self.executionTime
         self.eventList.add(ReportEvent(self.network, self.eventList, reportTime, self.userID))
         
     def eventType(self):
