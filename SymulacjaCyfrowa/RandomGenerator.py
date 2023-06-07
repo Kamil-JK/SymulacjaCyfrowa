@@ -26,6 +26,7 @@ class RandomGenerator:
         return -(1 / self._lambda) * np.log(k)
     
     def randGauss(self, mean, deviation):
+        # Według algorytmu Boxa-Mullera
         u1 = 1.0 - random.random()  # Wartość z przedziału (0, 1)
         u2 = 1.0 - random.random()  # Wartość z przedziału (0, 1)
         z0 = math.sqrt(-2.0 * math.log(u1)) * math.cos(2.0 * math.pi * u2)
