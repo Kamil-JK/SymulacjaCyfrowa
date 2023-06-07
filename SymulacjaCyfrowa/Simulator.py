@@ -19,10 +19,14 @@ from RandomGenerator import RandomGenerator
 
 class Simulator:
 
-  #eventList = SortedList(key=lambda x: -x.getExecutionTime())
-  eventList = SortedList(key=lambda x: -x.getExecutionTime())
-  clock = 0
+  eventList = SortedList(key=lambda x: -x.getSimulationTime())
   firstUserID = 0
+  l = 5000
+  x = 2000
+  t = 20
+  delta = 20
+  ttt = 100
+  n = 60
   network = Network()
 
 
@@ -40,22 +44,20 @@ class Simulator:
 
   def mainLoop(self):
 
-    executionTime = 3 + 20 * np.random.uniform()
-    self.eventList.add(GenerateEvent(self.network, self.eventList, executionTime, self.firstUserID))
-
+    clock = 0
+    self.eventList.add(GenerateEvent(self.network, self.eventList, self.tau, self.firstUserID, self.tau))
     
-    while self.clock <= 50:
+    while clock <= 50:
       #wrzuć nowy even do listy (zaplanuj)
-      print("Clock: " + str(self.clock) + " User length: " + str(self.network.userListLength()))
+      print("Clock: " + str(clock) + " User length: " + str(self.network.userListLength()))
 
       #execute eventu z najmniejszym czasem i wywal go w pętli aż nie będzie ujemnych
 
       event = self.eventList.pop()
       event.execute()
-      self.clock = event.getExecutionTime()
+      clock = event.getSimulationTime()
 
       print("Event list: ")
       for event in self.eventList:
         print(event.eventType())
                   
-

@@ -16,11 +16,10 @@ system('cls')
 # print(generator.randExp())
 # generator = RandomGenerator(64363, 0.6)
 # print(generator.randExp())
+# generator = RandomGenerator(64363, 0.6)
+# print(generator.randGauss(0, 4))
 
 
-for simulationNumber in range(1):
-    simulator = Simulator(simulationNumber, 0.2)
-    simulator.mainLoop()
 for simulationNumber in range(1):
     simulator = Simulator(simulationNumber, 0.2)
     simulator.mainLoop()

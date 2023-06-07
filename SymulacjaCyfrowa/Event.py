@@ -3,17 +3,17 @@ from sortedcontainers import SortedList
 
 class Event():
     
-    def __init__(self, network, eventList, executionTime, userID):
+    def __init__(self, network, eventList, simulationTime, userID):
         self.network = network
         self.eventList = eventList
-        self.executionTime = executionTime
+        self.simulationTime = simulationTime
         self.userID = userID
 
-    def getExecutionTime(self):
-        return self.executionTime
+    def getSimulationTime(self):
+        return self.simulationTime
 
     def updateTime(self, time):
-        self.executionTime -= time
+        self.simulationTime -= time
 
     def execute(self):
         pass
