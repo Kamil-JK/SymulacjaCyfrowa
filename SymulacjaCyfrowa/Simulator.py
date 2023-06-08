@@ -25,8 +25,9 @@ class Simulator:
   t = 20
   delta = 20
   ttt = 100
-  n = 60
-  network = Network()
+  n = 4
+  t = 20
+  
 
 
   def __init__(self, simulationNumber, _lambda):
@@ -40,23 +41,24 @@ class Simulator:
     self.s1 = self.generatorS1.randGauss(0, 4)
     self.s2 = self.generatorS2.randGauss(0, 4)
 
+    self.network = Network(self.v, self.s1, self.s2, self.t, self.n)
+
 
   def mainLoop(self):
 
     clock = 0
-    self.eventList.add(GenerateEvent(self.network, self.eventList, self.tau, self.firstUserID, self.tau))
+    self.eventList.add(GenerateEvent(self.network, self.eventList, self.tau, self.firstUserID, self.t, self.tau))
     
-    while clock <= 50:
-      #wrzuć nowy even do listy (zaplanuj)
-      print("Clock: " + str(clock) + " User length: " + str(self.network.userListLength()))
-
-      #execute eventu z najmniejszym czasem i wywal go w pętli aż nie będzie ujemnych
+    while clock <= 30:
 
       event = self.eventList.pop()
-      event.execute()
       clock = event.getSimulationTime()
+      print("------Clock: " + str(clock) + " User length: " + str(self.network.userListLength()))
+      event.execute()
+
 
       print("Event list: ")
       for event in self.eventList:
         print(event.eventType())
+
                   
