@@ -1,6 +1,5 @@
 from GenerateEvent import GenerateEvent
 from Network import Network 
-import numpy as np
 from sortedcontainers import SortedList
 from RandomGenerator import RandomGenerator 
 

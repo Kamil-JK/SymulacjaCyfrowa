@@ -1,5 +1,4 @@
 from Event import Event
-import numpy as np
 
 class GenerateEvent(Event):    
 
