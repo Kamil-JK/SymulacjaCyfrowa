@@ -32,9 +32,9 @@ class ReportEvent(Event):
 
     def execute(self):
         print("Report event executing, userID: " + str(self.userID) + ", time: " + str(self.simulationTime))
-        self.network.reportUser(self.userID)
-        reportTime = self.t  + self.simulationTime
-        self.eventList.add(ReportEvent(self.network, self.eventList, reportTime, self.userID, self.t))
+        if self.network.reportUser(self.userID):
+            reportTime = self.t  + self.simulationTime
+            self.eventList.add(ReportEvent(self.network, self.eventList, reportTime, self.userID, self.t))
         
     def eventType(self):
         return "ReportEvent, userID: " + str(self.userID) + ", time: " + str(self.simulationTime)

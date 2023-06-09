@@ -3,13 +3,12 @@ from User import User
 
 class Network:
 
-    d = 5000
     userList = []
     userBuffer = queue.Queue()
     
-    
-    def __init__(self, x, v, s1, s2, t, n, ttt, alfa):
+    def __init__(self, x, l, v, s1, s2, t, n, ttt, alfa, delta):
         self.x = x
+        self.l = l 
         self.v = v
         self.s1 = s1
         self.s2 = s2
@@ -17,13 +16,14 @@ class Network:
         self.n = n
         self.ttt = ttt
         self.alfa = alfa
+        self.delta = delta
 
     def createUser(self, userID):
         if len(self.userList) < self.n:
-            self.userList.append(User(self.v, self.s1, self.s2, self.x, userID, self.ttt, self.alfa))
+            self.userList.append(User(self.v, self.s1, self.s2, self.x, self.l, userID, self.ttt, self.alfa, self.delta))
             return True
         else:
-            self.userBuffer.put(User(self.v, self.s1, self.s2, self.x, userID, self.ttt, self.alfa))
+            self.userBuffer.put(User(self.v, self.s1, self.s2, self.x, self.l, userID, self.ttt, self.alfa, self.delta))
             print("Buffer size: " + str(self.userBuffer.qsize()))
             return False
             
@@ -32,7 +32,7 @@ class Network:
         #Report user with userID
         for i in range(len(self.userList)):
             if self.userList[i].userID == userID:
-                self.userList[userID].report(self.t)
+                return self.userList[userID].report(self.t)
     
     def destroyUser(self, userID):
         print("I should now check the queue")
