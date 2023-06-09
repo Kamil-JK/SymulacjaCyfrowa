@@ -13,13 +13,12 @@ from RandomGenerator import RandomGenerator
 #τ - zmienna losowa o rozkładzie wykładniczym o intensywności λ
 #𝑡𝑡𝑡 = 100 𝑚𝑠. 
 #n = 60
-#Optymalizacji podlega parametr 𝛼
+#𝛼 - najmniejsza różnica mocy potrzebna do zmiany stacji bazowej 
 
 
 class Simulator:
 
   eventList = SortedList(key=lambda x: -x.getSimulationTime())
-  firstUserID = 0
   l = 5000
   x = 2000
   t = 20
@@ -27,10 +26,9 @@ class Simulator:
   ttt = 100
   n = 4
   t = 20
-  
 
 
-  def __init__(self, simulationNumber, _lambda):
+  def __init__(self, simulationNumber, _lambda, alfa):
     self.generatorTau = RandomGenerator(52834 + simulationNumber * 100000, _lambda)
     self.generatorV = RandomGenerator(8672 + simulationNumber * 100000, _lambda)
     self.generatorS1 = RandomGenerator(11637 + simulationNumber * 100000, _lambda)
@@ -41,19 +39,20 @@ class Simulator:
     self.s1 = self.generatorS1.randGauss(0, 4)
     self.s2 = self.generatorS2.randGauss(0, 4)
 
-    self.network = Network(self.v, self.s1, self.s2, self.t, self.n)
+
+    self.network = Network(self.x, self.v, self.s1, self.s2, self.t, self.n, self.ttt, alfa)
 
 
   def mainLoop(self):
 
     clock = 0
-    self.eventList.add(GenerateEvent(self.network, self.eventList, self.tau, self.firstUserID, self.t, self.tau))
+    self.eventList.add(GenerateEvent(self.network, self.eventList, self.tau, 0, self.t, self.tau))
     
     while clock <= 30:
 
       event = self.eventList.pop()
       clock = event.getSimulationTime()
-      print("------Clock: " + str(clock) + " User length: " + str(self.network.userListLength()))
+      print("------Clock: " + str(clock) + " User length: " + str(len(self.network.userList)))
       event.execute()
 
 
