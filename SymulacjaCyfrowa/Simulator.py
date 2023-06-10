@@ -28,7 +28,7 @@ class Simulator:
   t = 20
   delta = 20
   ttt = 100
-  n = 4
+  n = 60
   t = 20
 
 
@@ -43,25 +43,23 @@ class Simulator:
     self.s1 = self.generatorS1.randGauss(0, 4)
     self.s2 = self.generatorS2.randGauss(0, 4)
 
-
     self.network = Network(self.x, self.l, self.v, self.s1, self.s2, self.t, self.n, self.ttt, alfa, self.delta)
-
 
   def mainLoop(self):
 
     clock = 0
     self.eventList.add(GenerateEvent(self.network, self.eventList, self.tau, 0, self.t, self.tau))
     
-    while clock <= 10000:
+    while clock <= 1000000:
 
       event = self.eventList.pop()
       clock = event.getSimulationTime()
-      print("------Clock: " + str(clock) + " User length: " + str(len(self.network.userList)))
       event.execute()
 
 
       # print("Event list: ")
       # for event in self.eventList:
       #   print(event.eventType())
+      # print("------Clock: " + str(clock) + " User length: " + str(len(self.network.userList)))
 
                   

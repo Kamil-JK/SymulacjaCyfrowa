@@ -24,7 +24,7 @@ class Network:
             return True
         else:
             self.userBuffer.put(User(self.v, self.s1, self.s2, self.x, self.l, userID, self.ttt, self.alfa, self.delta))
-            print("Buffer size: " + str(self.userBuffer.qsize()))
+            # print("Buffer size: " + str(self.userBuffer.qsize()))
             return False
             
     
@@ -35,7 +35,6 @@ class Network:
                 return self.userList[userID].report(self.t)
     
     def destroyUser(self, userID):
-        print("I should now check the queue")
         for i in range(len(self.userList)):
             if self.userList[i].userID == userID:
                 self.userList.remove(userID)

@@ -5,10 +5,10 @@ class GenerateEvent(Event):
     def __init__(self, network, eventList, simulationTime, userID, t, tau):
         super().__init__(network, eventList, simulationTime, userID, t)
         self.tau = tau
-        print("Generate event created, userID: " + str(self.userID) + ", time: " + str(self.simulationTime))
+        # print("Generate event created, userID: " + str(self.userID) + ", time: " + str(self.simulationTime))
     
     def execute(self):
-        print("Generate event executing, userID: " + str(self.userID) + ", time: " + str(self.simulationTime))
+        # print("Generate event executing, userID: " + str(self.userID) + ", time: " + str(self.simulationTime))
 
         userInSystem = self.network.createUser(self.userID)
         if (userInSystem):
@@ -20,6 +20,7 @@ class GenerateEvent(Event):
         generateTime = self.tau + self.simulationTime
         self.eventList.add(GenerateEvent(self.network, self.eventList, generateTime, self.userID + 1, self.t, self.tau))
 
+
     def eventType(self):
         return "GenerateEvent, userID: " + str(self.userID) + ", time: " + str(self.simulationTime)
     
@@ -28,13 +29,15 @@ class ReportEvent(Event):
     
     def __init__(self, network, eventList, simulationTime, userID, t):
         super().__init__(network, eventList, simulationTime, userID, t)
-        print("Report event created, userID: " + str(self.userID) + ", time: " + str(self.simulationTime))
+        #print("Report event created, userID: " + str(self.userID) + ", time: " + str(self.simulationTime))
 
     def execute(self):
-        print("Report event executing, userID: " + str(self.userID) + ", time: " + str(self.simulationTime))
-        if self.network.reportUser(self.userID):
+        #print("Report event executing, userID: " + str(self.userID) + ", time: " + str(self.simulationTime))
+        report = self.network.reportUser(self.userID)
+        if report:
             reportTime = self.t  + self.simulationTime
             self.eventList.add(ReportEvent(self.network, self.eventList, reportTime, self.userID, self.t))
+
         
     def eventType(self):
         return "ReportEvent, userID: " + str(self.userID) + ", time: " + str(self.simulationTime)
