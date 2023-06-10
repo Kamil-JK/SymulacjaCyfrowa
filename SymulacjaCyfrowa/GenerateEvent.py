@@ -17,8 +17,10 @@ class GenerateEvent(Event):
 
 
         #Nowy generateEvent po losowym czasie
-        generateTime = self.tau + self.simulationTime
-        self.eventList.add(GenerateEvent(self.network, self.eventList, generateTime, self.userID + 1, self.t, self.tau))
+        newUserID = self.userID + 1
+        generateTime = self.tau[newUserID] + self.simulationTime
+        self.eventList.add(GenerateEvent(self.network, self.eventList, generateTime, newUserID, self.t, self.tau))
+        return False
 
 
     def eventType(self):
@@ -33,11 +35,16 @@ class ReportEvent(Event):
 
     def execute(self):
         #print("Report event executing, userID: " + str(self.userID) + ", time: " + str(self.simulationTime))
+        reportTime = self.t  + self.simulationTime
         report = self.network.reportUser(self.userID)
-        if report:
-            reportTime = self.t  + self.simulationTime
+        if report:                 # if user in system
             self.eventList.add(ReportEvent(self.network, self.eventList, reportTime, self.userID, self.t))
+        elif report == False:      # if user deleted
+            if self.network.bufferEmpty():
+                userID = self.network.userFromBuffer()
+                self.eventList.add(ReportEvent(self.network, self.eventList, reportTime, userID, self.t))
+            return True
+        return False
 
-        
     def eventType(self):
         return "ReportEvent, userID: " + str(self.userID) + ", time: " + str(self.simulationTime)

@@ -17,14 +17,20 @@ class Network:
         self.ttt = ttt
         self.alfa = alfa
         self.delta = delta
+        self.totalUserNumber = 0
 
     def createUser(self, userID):
+        v  = self.v[self.totalUserNumber]
+        s1 = self.s1[self.totalUserNumber]
+        s2 = self.s2[self.totalUserNumber]
         if len(self.userList) < self.n:
-            self.userList.append(User(self.v, self.s1, self.s2, self.x, self.l, userID, self.ttt, self.alfa, self.delta))
+            self.userList.append(User(v, s1, s2, self.x, self.l, userID, self.ttt, self.alfa, self.delta))
+            self.totalUserNumber = self.totalUserNumber + 1
             return True
         else:
-            self.userBuffer.put(User(self.v, self.s1, self.s2, self.x, self.l, userID, self.ttt, self.alfa, self.delta))
+            self.userBuffer.put(User(v, s1, s2, self.x, self.l, userID, self.ttt, self.alfa, self.delta))
             # print("Buffer size: " + str(self.userBuffer.qsize()))
+            self.totalUserNumber = self.totalUserNumber + 1
             return False
             
     
@@ -39,9 +45,13 @@ class Network:
             if self.userList[i].userID == userID:
                 self.userList.remove(userID)
 
-    def checkQueue(self):
-        if self.userBuffer.empty() == False and len(self.userList) < self.n :
-            print("Create report event and user Może w report evencie to się zrobi jakiś może return true czy coś")
+    def bufferEmpty(self):
+        return self.userBuffer.empty()
+
+    def userFromBuffer(self):
+        user = self.userBuffer.get()
+        self.userList.append(user)
+        return user.getUserID()
 
         
 

@@ -23,18 +23,21 @@ class User:
         self.ttt_1_2 = 0
         self.ttt_2_1 = 0
 
+    def getUserID(self):
+        return self.userID
+
     def report(self, t):
         self.x = self.x + self.v * t
-        powerBS1 = 4.56 - 22 * math.log10(self.x) #+ self.s1
-        powerBS2 = 4.56 - 22 * math.log10(self.l - self.x)# + self.s2
+        powerBS1 = 4.56 - 22 * math.log10(self.x) + self.s1
+        powerBS2 = 4.56 - 22 * math.log10(self.l - self.x) + self.s2
 
         if self.x >= self.l - self.x0:
-            logging.debug("Delete user - reached destination at " + str(self.x))
+            logging.debug("Delete user " + str(self.userID)+ " - reached destination in " + str(self.x) + "m")
             return False
 
         elif self.currentBS == 2:
             if powerBS2 - powerBS1 >= self.delta:
-                logging.debug("Delete user" + str(self.userID)+ " - delta condition at " + str(self.x))
+                logging.debug("Delete user" + str(self.userID)+ " - delta condition in " + str(self.x) + "m")
                 return False
             elif powerBS1 - powerBS2 >= self.alfa:
                 self.ttt_1_2 = 0
@@ -49,13 +52,13 @@ class User:
 
         elif self.currentBS == 1:
             if powerBS1 - powerBS2 >= self.delta:
-                logging.debug("Delete user" + str(self.userID)+ " - delta condition at " + str(self.x))
+                logging.debug("Delete user" + str(self.userID)+ " - delta condition in " + str(self.x) + "m")
                 return False      
             elif powerBS2 - powerBS1 >= self.alfa:
                 self.ttt_1_2 = 0
                 self.ttt_2_1 = self.ttt_2_1 + t            
                 if(self.ttt_2_1 == 100):
-                    logging.debug("Switch to BS2 user" + str(self.userID)+ " at " + str(self.x))
+                    logging.debug("Switch to BS2 user" + str(self.userID)+ " in " + str(self.x) + "m")
                     self.currentBS = 2
                     self.ttt_2_1 = 0
             else:

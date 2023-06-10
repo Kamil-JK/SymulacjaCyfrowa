@@ -1,7 +1,7 @@
 from GenerateEvent import GenerateEvent
 from Network import Network 
 from sortedcontainers import SortedList
-from RandomGenerator import RandomGenerator 
+from RandomNumberGenerator import RandomNumberGenerator 
 
 # M2 Planowanie zdarzeń
 # A1 Optymalizacja parametru alfa
@@ -30,31 +30,39 @@ class Simulator:
   ttt = 100
   n = 60
   t = 20
+  tau = []
+  v = []
+  s1 = []
+  s2 = []
+  usersServed = 0
 
 
   def __init__(self, simulationNumber, _lambda, alfa):
-    self.generatorTau = RandomGenerator(52834 + simulationNumber * 100000, _lambda)
-    self.generatorV = RandomGenerator(8672 + simulationNumber * 100000, _lambda)
-    self.generatorS1 = RandomGenerator(11637 + simulationNumber * 100000, _lambda)
-    self.generatorS2 = RandomGenerator(74664 + simulationNumber * 100000, _lambda)
+    self.generator = RandomNumberGenerator(_lambda)
 
-    self.tau = self.generatorTau.randExp()
-    self.v =  0.005 + 0.0045 * self.generatorV.rand() # [5,50]m/s
-    self.s1 = self.generatorS1.randGauss(0, 4)
-    self.s2 = self.generatorS2.randGauss(0, 4)
+    seed = simulationNumber * 10000000000
+
+    for i in range(100000):
+      self.tau.append(self.generator.randExp(seed))
+      seed = seed + 50000
+      self.v.append(0.005 + 0.045 * self.generator.rand(seed)) # [5,50]m/s
+      seed = seed + 50000
+      self.s1.append(self.generator.randGauss(0, 4))
+      self.s2.append(self.generator.randGauss(0, 4))
 
     self.network = Network(self.x, self.l, self.v, self.s1, self.s2, self.t, self.n, self.ttt, alfa, self.delta)
 
   def mainLoop(self):
 
     clock = 0
-    self.eventList.add(GenerateEvent(self.network, self.eventList, self.tau, 0, self.t, self.tau))
+    self.eventList.add(GenerateEvent(self.network, self.eventList, self.tau[0], 0, self.t, self.tau))
     
-    while clock <= 1000000:
+    while self.usersServed <= 100:
 
       event = self.eventList.pop()
       clock = event.getSimulationTime()
-      event.execute()
+      if event.execute():
+        self.usersServed = self.usersServed + 1
 
 
       # print("Event list: ")

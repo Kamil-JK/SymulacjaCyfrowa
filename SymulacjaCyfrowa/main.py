@@ -18,6 +18,6 @@ _lambda = 0.2
 # print(math.log10(x))
 # print(math.log10(l - x))
 
-for simulationNumber in range(1):
+for simulationNumber in range(1,2):
     simulator = Simulator(simulationNumber, _lambda, alfa)
     simulator.mainLoop()

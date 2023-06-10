@@ -1,120 +1,98 @@
-DEBUG:root:Switch to BS2 user0 at 2631.238423518663
-DEBUG:root:Switch to BS2 user1 at 2631.238423518663
-DEBUG:root:Switch to BS2 user2 at 2631.238423518663
-DEBUG:root:Switch to BS2 user3 at 2631.238423518663
-DEBUG:root:Switch to BS2 user4 at 2631.238423518663
-DEBUG:root:Switch to BS2 user5 at 2631.238423518663
-DEBUG:root:Switch to BS2 user6 at 2631.238423518663
-DEBUG:root:Switch to BS2 user7 at 2631.238423518663
-DEBUG:root:Switch to BS2 user8 at 2631.238423518663
-DEBUG:root:Switch to BS2 user9 at 2631.238423518663
-DEBUG:root:Switch to BS2 user10 at 2631.238423518663
-DEBUG:root:Switch to BS2 user11 at 2631.238423518663
-DEBUG:root:Switch to BS2 user12 at 2631.238423518663
-DEBUG:root:Switch to BS2 user13 at 2631.238423518663
-DEBUG:root:Switch to BS2 user14 at 2631.238423518663
-DEBUG:root:Switch to BS2 user15 at 2631.238423518663
-DEBUG:root:Switch to BS2 user16 at 2631.238423518663
-DEBUG:root:Switch to BS2 user17 at 2631.238423518663
-DEBUG:root:Switch to BS2 user18 at 2631.238423518663
-DEBUG:root:Switch to BS2 user19 at 2631.238423518663
-DEBUG:root:Switch to BS2 user20 at 2631.238423518663
-DEBUG:root:Switch to BS2 user21 at 2631.238423518663
-DEBUG:root:Switch to BS2 user22 at 2631.238423518663
-DEBUG:root:Switch to BS2 user23 at 2631.238423518663
-DEBUG:root:Switch to BS2 user24 at 2631.238423518663
-DEBUG:root:Switch to BS2 user25 at 2631.238423518663
-DEBUG:root:Switch to BS2 user26 at 2631.238423518663
-DEBUG:root:Switch to BS2 user27 at 2631.238423518663
-DEBUG:root:Switch to BS2 user28 at 2631.238423518663
-DEBUG:root:Switch to BS2 user29 at 2631.238423518663
-DEBUG:root:Switch to BS2 user30 at 2631.238423518663
-DEBUG:root:Switch to BS2 user31 at 2631.238423518663
-DEBUG:root:Switch to BS2 user32 at 2631.238423518663
-DEBUG:root:Switch to BS2 user33 at 2631.238423518663
-DEBUG:root:Switch to BS2 user34 at 2631.238423518663
-DEBUG:root:Switch to BS2 user35 at 2631.238423518663
-DEBUG:root:Switch to BS2 user36 at 2631.238423518663
-DEBUG:root:Switch to BS2 user37 at 2631.238423518663
-DEBUG:root:Switch to BS2 user38 at 2631.238423518663
-DEBUG:root:Switch to BS2 user39 at 2631.238423518663
-DEBUG:root:Switch to BS2 user40 at 2631.238423518663
-DEBUG:root:Switch to BS2 user41 at 2631.238423518663
-DEBUG:root:Switch to BS2 user42 at 2631.238423518663
-DEBUG:root:Switch to BS2 user43 at 2631.238423518663
-DEBUG:root:Switch to BS2 user44 at 2631.238423518663
-DEBUG:root:Switch to BS2 user45 at 2631.238423518663
-DEBUG:root:Switch to BS2 user46 at 2631.238423518663
-DEBUG:root:Switch to BS2 user47 at 2631.238423518663
-DEBUG:root:Switch to BS2 user48 at 2631.238423518663
-DEBUG:root:Switch to BS2 user49 at 2631.238423518663
-DEBUG:root:Switch to BS2 user50 at 2631.238423518663
-DEBUG:root:Switch to BS2 user51 at 2631.238423518663
-DEBUG:root:Switch to BS2 user52 at 2631.238423518663
-DEBUG:root:Switch to BS2 user53 at 2631.238423518663
-DEBUG:root:Switch to BS2 user54 at 2631.238423518663
-DEBUG:root:Switch to BS2 user55 at 2631.238423518663
-DEBUG:root:Switch to BS2 user56 at 2631.238423518663
-DEBUG:root:Switch to BS2 user57 at 2631.238423518663
-DEBUG:root:Switch to BS2 user58 at 2631.238423518663
-DEBUG:root:Switch to BS2 user59 at 2631.238423518663
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
-DEBUG:root:Delete user - reached destination at 3000.07096010479
+DEBUG:root:Switch to BS2 user15 in 2004.2055997369835m
+DEBUG:root:Switch to BS2 user20 in 2003.8149305706918m
+DEBUG:root:Switch to BS2 user23 in 2000.8805290709154m
+DEBUG:root:Switch to BS2 user24 in 2004.4023952376574m
+DEBUG:root:Switch to BS2 user33 in 2004.5991907383313m
+DEBUG:root:Switch to BS2 user46 in 2000.8834509059704m
+DEBUG:root:Switch to BS2 user58 in 2002.6458449068696m
+DEBUG:root:Switch to BS2 user59 in 2001.6677110736111m
+DEBUG:root:Switch to BS2 user52 in 2028.9054649262216m
+DEBUG:root:Switch to BS2 user29 in 2062.5829267132876m
+DEBUG:root:Switch to BS2 user17 in 2052.6343704489186m
+DEBUG:root:Switch to BS2 user4 in 2040.1429701374611m
+DEBUG:root:Switch to BS2 user40 in 2149.0992085455355m
+DEBUG:root:Switch to BS2 user39 in 2262.9535619367766m
+DEBUG:root:Switch to BS2 user1 in 2390.6732381510865m
+DEBUG:root:Switch to BS2 user30 in 2299.7189131249834m
+DEBUG:root:Switch to BS2 user53 in 2309.117132647912m
+DEBUG:root:Switch to BS2 user49 in 2249.803039431954m
+DEBUG:root:Switch to BS2 user19 in 2617.346695228787m
+DEBUG:root:Switch to BS2 user56 in 2612.080972260394m
+DEBUG:root:Switch to BS2 user51 in 2688.005323727787m
+DEBUG:root:Delete user 5 - reached destination in 3000.379776755546m
+DEBUG:root:Delete user 28 - reached destination in 3000.9658968675944m
+DEBUG:root:Delete user 51 - reached destination in 3000.553460631707m
+DEBUG:root:Switch to BS2 user42 in 2993.7283487218956m
+DEBUG:root:Delete user 19 - reached destination in 3000.791847544804m
+DEBUG:root:Delete user 42 - reached destination in 3000.442729456503m
+DEBUG:root:Switch to BS2 user18 in 2269.7482659357747m
+DEBUG:root:Delete user 10 - reached destination in 3000.148113352916m
+DEBUG:root:Delete user 33 - reached destination in 3000.7839046609006m
+DEBUG:root:Switch to BS2 user38 in 2917.4577027044006m
+DEBUG:root:Delete user 56 - reached destination in 3000.499273454208m
+DEBUG:root:Delete user 1 - reached destination in 3000.4402517517688m
+DEBUG:root:Delete user 24 - reached destination in 3000.2241979957616m
+DEBUG:root:Delete user 47 - reached destination in 3000.0069755057325m
+DEBUG:root:Switch to BS2 user13 in 2392.2007072259985m
+DEBUG:root:Delete user 15 - reached destination in 3000.0916174546664m
+DEBUG:root:Switch to BS2 user16 in 2770.0733646290473m
+DEBUG:root:Delete user 38 - reached destination in 3000.7864298307636m
+DEBUG:root:Delete user 6 - reached destination in 3000.597537382855m
+DEBUG:root:Switch to BS2 user35 in 2657.030675653083m
+DEBUG:root:Delete user 29 - reached destination in 3000.524482198329m
+DEBUG:root:Delete user 52 - reached destination in 3000.4502582797813m
+DEBUG:root:Switch to BS2 user25 in 2862.229021627392m
+DEBUG:root:Delete user 20 - reached destination in 3000.2747956351022m
+DEBUG:root:Delete user 43 - reached destination in 3000.277330305394m
+DEBUG:root:Switch to BS2 user21 in 2768.204556496954m
+DEBUG:root:Delete user 11 - reached destination in 3000.0525333526325m
+DEBUG:root:Delete user 34 - reached destination in 3000.1359171808413m
+DEBUG:root:Delete user 57 - reached destination in 3000.218132275028m
+DEBUG:root:Switch to BS2 user31 in 2569.773069823794m
+DEBUG:root:Delete user 2 - reached destination in 3000.3996900758398m
+DEBUG:root:Delete user 25 - reached destination in 3000.5691823650645m
+DEBUG:root:Delete user 48 - reached destination in 3000.0520692723767m
+DEBUG:root:Switch to BS2 user3 in 2751.530084419892m
+DEBUG:root:Switch to BS2 user8 in 2634.644307379892m
+DEBUG:root:Delete user 16 - reached destination in 3000.514430155096m
+DEBUG:root:Delete user 39 - reached destination in 3000.128043926657m
+DEBUG:root:Switch to BS2 user0 in 2279.2546224510456m
+DEBUG:root:Delete user 7 - reached destination in 3000.1212330072167m
+DEBUG:root:Delete user 30 - reached destination in 3000.4787201277704m
+DEBUG:root:Delete user 53 - reached destination in 3000.2277356996697m
+DEBUG:root:Switch to BS2 user50 in 2488.0497871002235m
+DEBUG:root:Switch to BS2 user26 in 2840.9786589581213m
+DEBUG:root:Delete user 21 - reached destination in 3000.254529619003m
+DEBUG:root:Delete user 44 - reached destination in 3000.1488812304274m
+DEBUG:root:Delete user 12 - reached destination in 3000.0324684844672m
+DEBUG:root:Delete user 35 - reached destination in 3000.0820903746044m
+DEBUG:root:Delete user 58 - reached destination in 3000.1293747966974m
+DEBUG:root:Switch to BS2 user41 in 2492.3199959229196m
+DEBUG:root:Delete user 3 - reached destination in 3000.248428353393m
+DEBUG:root:Delete user 26 - reached destination in 3000.466176596485m
+DEBUG:root:Delete user 49 - reached destination in 3000.191777490294m
+DEBUG:root:Switch to BS2 user54 in 2905.6873055572396m
+DEBUG:root:Delete user 17 - reached destination in 3000.0530385294537m
+DEBUG:root:Delete user 40 - reached destination in 3000.0007340516277m
+DEBUG:root:Delete user 8 - reached destination in 3000.4063241169447m
+DEBUG:root:Delete user 31 - reached destination in 3000.1860597989107m
+DEBUG:root:Delete user 54 - reached destination in 3000.372796592769m
+DEBUG:root:Delete user 22 - reached destination in 3000.3323750263676m
+DEBUG:root:Delete user 45 - reached destination in 3000.0433219137803m
+DEBUG:root:Delete user 13 - reached destination in 3000.1118034262454m
+DEBUG:root:Delete user 36 - reached destination in 3000.2053745238354m
+DEBUG:root:Delete user 59 - reached destination in 3000.2931019513153m
+DEBUG:root:Delete user 50 - reached destination in 3000.222589596561m
+DEBUG:root:Delete user 27 - reached destination in 3000.2909329921426m
+DEBUG:root:Delete user 4 - reached destination in 3000.0580808690047m
+DEBUG:root:Delete user 41 - reached destination in 3000.1842567275075m
+DEBUG:root:Delete user 18 - reached destination in 3000.1787730362494m
+DEBUG:root:Switch to BS2 user9 in 2864.2495612690054m
+DEBUG:root:Delete user 55 - reached destination in 3000.09212327238m
+DEBUG:root:Delete user 32 - reached destination in 3000.1881322645254m
+DEBUG:root:Delete user 9 - reached destination in 3000.054067167077m
+DEBUG:root:Delete user 46 - reached destination in 3000.066425559773m
+DEBUG:root:Delete user 23 - reached destination in 3000.1049187469093m
+DEBUG:root:Delete user 0 - reached destination in 3000.1212059876266m
+DEBUG:root:Delete user 37 - reached destination in 3000.0449322754866m
+DEBUG:root:Delete user 14 - reached destination in 3000.0287198367773m
