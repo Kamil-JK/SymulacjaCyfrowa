@@ -2,25 +2,26 @@ from Event import Event
 
 class GenerateEvent(Event):    
 
-    def __init__(self, network, eventList, simulationTime, t, maxUsersNumber, tau):
+    def __init__(self, network, eventList, simulationTime, t, maxUsersNumber, eventNumber, tau):
         super().__init__(network, eventList, simulationTime, t, maxUsersNumber)
         self.tau = tau
+        self.eventNumber = eventNumber
         # print("Generate event created, userID: " + str(self.userID) + ", time: " + str(self.simulationTime))
     
     def execute(self):
         # print("Generate event executing, userID: " + str(self.userID) + ", time: " + str(self.simulationTime))
         if self.network.getNewUserNumber() + 1 < self.maxUsersNumber:
-            newUserID = self.network.planNewUser()
+
             if self.network.getUserListSize() < 60:
-                self.network.createUser(newUserID, False)
+                newUserID = self.network.createUser(False)
                 reportTime = self.t  + self.simulationTime
                 self.eventList.add(ReportEvent(self.network, self.eventList, reportTime, self.t, self.maxUsersNumber, newUserID))
-                generateTime = self.tau[newUserID] + self.simulationTime
-                self.eventList.add(GenerateEvent(self.network, self.eventList, generateTime, self.t, self.maxUsersNumber, self.tau))
+                generateTime = self.tau[self.eventNumber] + self.simulationTime
+                self.eventList.add(GenerateEvent(self.network, self.eventList, generateTime, self.t, self.maxUsersNumber, self.eventNumber + 1, self.tau))
             else:
                 self.network.userToBuffer()
-                generateTime = self.tau[newUserID] + self.simulationTime
-                self.eventList.add(GenerateEvent(self.network, self.eventList, generateTime, self.t, self.maxUsersNumber, self.tau))
+                generateTime = self.tau[self.eventNumber] + self.simulationTime
+                self.eventList.add(GenerateEvent(self.network, self.eventList, generateTime, self.t, self.maxUsersNumber, self.eventNumber + 1, self.tau))
         return False
     
 
@@ -40,8 +41,7 @@ class ReportEvent(Event):
         elif report == False:      # if user deleted
             self.network.destroyUser(self.userID)
             if self.network.getBufferSize() >= 1 and self.network.getUserListSize() < 60 and self.network.getNewUserNumber() + 1 <= self.maxUsersNumber:
-                newUserID = self.network.planNewUser()
-                self.network.createUser(newUserID, True)
+                newUserID = self.network.createUser(True)
                 self.eventList.add(ReportEvent(self.network, self.eventList, reportTime, self.t, self.maxUsersNumber, newUserID))
                                
             return True

@@ -36,13 +36,14 @@ class Simulator:
   s2 = []
   usersServed = 0
   maxUsersNumber = 1000
+  eventNumber = 0
 
   def __init__(self, simulationNumber, _lambda, alfa):
     self.generator = RandomNumberGenerator(_lambda)
 
-    seed = simulationNumber * 100000000
+    seed = simulationNumber * 106000000
 
-    for i in range(1000):
+    for i in range(1060):
       self.tau.append(self.generator.randExp(seed))
       seed = seed + 50000
       self.v.append(0.005 + 0.045 * self.generator.rand(seed)) # [5,50]m/s
@@ -55,7 +56,7 @@ class Simulator:
   def mainLoop(self):
 
     clock = 0
-    self.eventList.add(GenerateEvent(self.network, self.eventList, self.tau[0], self.t, self.maxUsersNumber, self.tau))
+    self.eventList.add(GenerateEvent(self.network, self.eventList, self.tau[0], self.t, self.maxUsersNumber, self.eventNumber, self.tau))
     
     while self.usersServed <= 100 and self.eventList.__sizeof__() > 0:
 
