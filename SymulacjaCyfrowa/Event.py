@@ -1,11 +1,11 @@
 class Event():
     
-    def __init__(self, network, eventList, simulationTime, userID, t):
+    def __init__(self, network, eventList, simulationTime, t, maxUsersNumber):
         self.network = network
         self.eventList = eventList
         self.simulationTime = simulationTime
-        self.userID = userID
         self.t = t
+        self.maxUsersNumber = maxUsersNumber
 
     def getSimulationTime(self):
         return self.simulationTime

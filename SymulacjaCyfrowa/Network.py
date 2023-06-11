@@ -4,7 +4,6 @@ from User import User
 class Network:
 
     userList = []
-    userBuffer = queue.Queue()
     
     def __init__(self, x, l, v, s1, s2, t, n, ttt, alfa, delta):
         self.x = x
@@ -17,20 +16,21 @@ class Network:
         self.ttt = ttt
         self.alfa = alfa
         self.delta = delta
-        self.totalUserNumber = 0
+        self.newUserNumber = -1
+        self.userBuffer = 0
 
-    def createUser(self, userID):
-        v  = self.v[self.totalUserNumber]
-        s1 = self.s1[self.totalUserNumber]
-        s2 = self.s2[self.totalUserNumber]
+    def createUser(self, userID, isFromBuffer):
+
         if len(self.userList) < self.n:
+            v  = self.v[self.newUserNumber]
+            s1 = self.s1[self.newUserNumber]
+            s2 = self.s2[self.newUserNumber]
             self.userList.append(User(v, s1, s2, self.x, self.l, userID, self.ttt, self.alfa, self.delta))
-            self.totalUserNumber = self.totalUserNumber + 1
+            if isFromBuffer:
+                self.userBuffer = self.userBuffer - 1
             return True
         else:
-            self.userBuffer.put(User(v, s1, s2, self.x, self.l, userID, self.ttt, self.alfa, self.delta))
-            # print("Buffer size: " + str(self.userBuffer.qsize()))
-            self.totalUserNumber = self.totalUserNumber + 1
+            self.userBuffer = self.userBuffer + 1
             return False
             
     
@@ -38,20 +38,20 @@ class Network:
         #Report user with userID
         for i in range(len(self.userList)):
             if self.userList[i].userID == userID:
-                return self.userList[userID].report(self.t)
+                return self.userList[i].report(self.t)
     
     def destroyUser(self, userID):
-        for i in range(len(self.userList)):
+        for i in range(len(self.userList) - 1):
             if self.userList[i].userID == userID:
-                self.userList.remove(userID)
+                self.userList.pop(i)
 
-    def bufferEmpty(self):
-        return self.userBuffer.empty()
+    def planNewUser(self):
+        self.newUserNumber = self.newUserNumber + 1
+        return self.newUserNumber
+    
+    def getBufferSize(self):
+        return self.userBuffer
 
-    def userFromBuffer(self):
-        user = self.userBuffer.get()
-        self.userList.append(user)
-        return user.getUserID()
 
         
 
