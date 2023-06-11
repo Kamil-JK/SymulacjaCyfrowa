@@ -9,18 +9,18 @@ class GenerateEvent(Event):
     
     def execute(self):
         # print("Generate event executing, userID: " + str(self.userID) + ", time: " + str(self.simulationTime))
-        if self.network.getUserListSize() < 60:
+        if self.network.getNewUserNumber() + 1 < self.maxUsersNumber:
             newUserID = self.network.planNewUser()
-            if newUserID < self.maxUsersNumber:
-                userInSystem = self.network.createUser(newUserID, False)
-                if (userInSystem):
-                    reportTime = self.t  + self.simulationTime
-                    self.eventList.add(ReportEvent(self.network, self.eventList, reportTime, self.t, self.maxUsersNumber, newUserID))
-
+            if self.network.getUserListSize() < 60:
+                self.network.createUser(newUserID, False)
+                reportTime = self.t  + self.simulationTime
+                self.eventList.add(ReportEvent(self.network, self.eventList, reportTime, self.t, self.maxUsersNumber, newUserID))
                 generateTime = self.tau[newUserID] + self.simulationTime
                 self.eventList.add(GenerateEvent(self.network, self.eventList, generateTime, self.t, self.maxUsersNumber, self.tau))
-        else:
-            
+            else:
+                self.network.userToBuffer()
+                generateTime = self.tau[newUserID] + self.simulationTime
+                self.eventList.add(GenerateEvent(self.network, self.eventList, generateTime, self.t, self.maxUsersNumber, self.tau))
         return False
     
 
@@ -39,11 +39,10 @@ class ReportEvent(Event):
             self.eventList.add(ReportEvent(self.network, self.eventList, reportTime, self.t, self.maxUsersNumber, self.userID))
         elif report == False:      # if user deleted
             self.network.destroyUser(self.userID)
-            if self.network.getBufferSize() >= 1 and self.network.getUserListSize() < 60:
+            if self.network.getBufferSize() >= 1 and self.network.getUserListSize() < 60 and self.network.getNewUserNumber() + 1 <= self.maxUsersNumber:
                 newUserID = self.network.planNewUser()
-                if newUserID < self.maxUsersNumber:
-                    self.network.createUser(newUserID, True)
-                    self.eventList.add(ReportEvent(self.network, self.eventList, reportTime, self.t, self.maxUsersNumber, newUserID))
+                self.network.createUser(newUserID, True)
+                self.eventList.add(ReportEvent(self.network, self.eventList, reportTime, self.t, self.maxUsersNumber, newUserID))
                                
             return True
         return False
