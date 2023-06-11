@@ -9,16 +9,18 @@ class GenerateEvent(Event):
     
     def execute(self):
         # print("Generate event executing, userID: " + str(self.userID) + ", time: " + str(self.simulationTime))
+        if self.network.getUserListSize() < 60:
+            newUserID = self.network.planNewUser()
+            if newUserID < self.maxUsersNumber:
+                userInSystem = self.network.createUser(newUserID, False)
+                if (userInSystem):
+                    reportTime = self.t  + self.simulationTime
+                    self.eventList.add(ReportEvent(self.network, self.eventList, reportTime, self.t, self.maxUsersNumber, newUserID))
 
-        newUserID = self.network.planNewUser()
-        if newUserID < self.maxUsersNumber:
-            userInSystem = self.network.createUser(newUserID, False)
-            if (userInSystem):
-                reportTime = self.t  + self.simulationTime
-                self.eventList.add(ReportEvent(self.network, self.eventList, reportTime, self.t, self.maxUsersNumber, newUserID))
-
-            generateTime = self.tau[newUserID] + self.simulationTime
-            self.eventList.add(GenerateEvent(self.network, self.eventList, generateTime, self.t, self.maxUsersNumber, self.tau))
+                generateTime = self.tau[newUserID] + self.simulationTime
+                self.eventList.add(GenerateEvent(self.network, self.eventList, generateTime, self.t, self.maxUsersNumber, self.tau))
+        else:
+            
         return False
     
 
@@ -37,7 +39,7 @@ class ReportEvent(Event):
             self.eventList.add(ReportEvent(self.network, self.eventList, reportTime, self.t, self.maxUsersNumber, self.userID))
         elif report == False:      # if user deleted
             self.network.destroyUser(self.userID)
-            if self.network.getBufferSize() >= 1:
+            if self.network.getBufferSize() >= 1 and self.network.getUserListSize() < 60:
                 newUserID = self.network.planNewUser()
                 if newUserID < self.maxUsersNumber:
                     self.network.createUser(newUserID, True)

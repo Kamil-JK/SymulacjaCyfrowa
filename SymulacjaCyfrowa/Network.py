@@ -49,6 +49,9 @@ class Network:
         self.newUserNumber = self.newUserNumber + 1
         return self.newUserNumber
     
+    def getUserListSize(self):
+        return len(self.userList)
+    
     def getBufferSize(self):
         return self.userBuffer
 
