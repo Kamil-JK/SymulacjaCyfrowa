@@ -1,13 +1,1379 @@
-DEBUG:root:Switch to BS2 user0 in 2004.939069829387m
-DEBUG:root:Switch to BS2 user4 in 2001.0265344963534m
-DEBUG:root:Switch to BS2 user16 in 2002.7889284972514m
-DEBUG:root:Switch to BS2 user29 in 2003.573188664891m
-DEBUG:root:Switch to BS2 user35 in 2002.2043856653409m
-DEBUG:root:Switch to BS2 user37 in 2004.7481179988233m
-DEBUG:root:Switch to BS2 user42 in 2004.3574488325316m
-DEBUG:root:Switch to BS2 user46 in 2004.9449134994973m
-DEBUG:root:Switch to BS2 user48 in 2002.9886458329804m
-DEBUG:root:Switch to BS2 user52 in 2003.576110499946m
-DEBUG:root:Switch to BS2 user56 in 2004.1635751669128m
-DEBUG:root:Switch to BS2 user5 in 2102.793854985945m
-DEBUG:root:Switch to BS2 user22 in 2044.5919406277849m
+DEBUG:matplotlib:matplotlib data path: C:\Users\kamil_o4lgsis\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\kamil_o4lgsis\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\kamil_o4lgsis\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\kamil_o4lgsis\.matplotlib\fontlist-v330.json
+DEBUG:root:Create user 0
+DEBUG:root:Create user 1
+DEBUG:root:Create user 2
+DEBUG:root:Create user 3
+DEBUG:root:Create user 4
+DEBUG:root:Create user 5
+DEBUG:root:Create user 6
+DEBUG:root:Create user 7
+DEBUG:root:Create user 8
+DEBUG:root:Create user 9
+DEBUG:root:Create user 10
+DEBUG:root:Create user 11
+DEBUG:root:Create user 12
+DEBUG:root:Create user 13
+DEBUG:root:Switch to BS2 user8 in 2130.354450632506m
+DEBUG:root:Create user 14
+DEBUG:root:Switch to BS2 user14 in 2002.3135261143625m
+DEBUG:root:Create user 15
+DEBUG:root:Create user 16
+DEBUG:root:Create user 17
+DEBUG:root:Switch to BS2 user10 in 2105.2897482911408m
+DEBUG:root:Create user 18
+DEBUG:root:Switch to BS2 user11 in 2054.598715832035m
+DEBUG:root:Create user 19
+DEBUG:root:Create user 20
+DEBUG:root:Create user 21
+DEBUG:root:Create user 22
+DEBUG:root:Create user 23
+DEBUG:root:Switch to BS2 user4 in 2433.8999954618257m
+DEBUG:root:Switch to BS2 user22 in 2034.1868633932786m
+DEBUG:root:Create user 24
+DEBUG:root:Create user 25
+DEBUG:root:Switch to BS2 user5 in 2318.779630421497m
+DEBUG:root:Create user 26
+DEBUG:root:Create user 27
+DEBUG:root:Switch to BS2 user9 in 2395.8941890879178m
+DEBUG:root:Create user 28
+DEBUG:root:Create user 29
+DEBUG:root:Switch to BS2 user13 in 2436.4741090544007m
+DEBUG:root:Create user 30
+DEBUG:root:Create user 31
+DEBUG:root:Switch to BS2 user16 in 2467.268262682784m
+DEBUG:root:Create user 32
+DEBUG:root:Create user 33
+DEBUG:root:Create user 34
+DEBUG:root:Create user 35
+DEBUG:root:Switch to BS2 user23 in 2212.3732086320615m
+DEBUG:root:Create user 36
+DEBUG:root:Delete user 7 - reached destination in 3000.1353484631345m
+DEBUG:root:Create user 37
+DEBUG:root:Delete user 3 - reached destination in 3000.328377618449m
+DEBUG:root:Switch to BS2 user18 in 2389.8931610106333m
+DEBUG:root:Create user 38
+DEBUG:root:Create user 39
+DEBUG:root:Switch to BS2 user39 in 2004.8601802829m
+DEBUG:root:Create user 40
+DEBUG:root:Create user 41
+DEBUG:root:Delete user 12 - reached destination in 3000.8396622381206m
+DEBUG:root:Delete user 8 - reached destination in 3000.1205873386625m
+DEBUG:root:Create user 42
+DEBUG:root:Create user 43
+DEBUG:root:Create user 44
+DEBUG:root:Create user 45
+DEBUG:root:Delete user 16 - reached destination in 3000.5952402562866m
+DEBUG:root:Switch to BS2 user6 in 2333.1534179535724m
+DEBUG:root:Create user 46
+DEBUG:root:Switch to BS2 user31 in 2465.8157199495145m
+DEBUG:root:Delete user 4 - reached destination in 3000.260189252916m
+DEBUG:root:Create user 47
+DEBUG:root:Create user 48
+DEBUG:root:Switch to BS2 user48 in 2000.5569757835735m
+DEBUG:root:Create user 49
+DEBUG:root:Create user 50
+DEBUG:root:Switch to BS2 user21 in 2987.1162312232786m
+DEBUG:root:Delete user 21 - reached destination in 3000.5159990679385m
+DEBUG:root:Create user 51
+DEBUG:root:Create user 52
+DEBUG:root:Create user 53
+DEBUG:root:Delete user 13 - reached destination in 3000.006292086909m
+DEBUG:root:Delete user 17 - reached destination in 3000.038325640411m
+DEBUG:root:Create user 54
+DEBUG:root:Delete user 0 - reached destination in 3000.4525122125447m
+DEBUG:root:Create user 55
+DEBUG:root:Switch to BS2 user32 in 2498.6509727138337m
+DEBUG:root:Create user 56
+DEBUG:root:Create user 57
+DEBUG:root:Switch to BS2 user36 in 2542.2881614282996m
+DEBUG:root:Create user 58
+DEBUG:root:Switch to BS2 user58 in 2004.2756374509895m
+DEBUG:root:Create user 59
+DEBUG:root:Delete user 9 - reached destination in 3000.0114147863146m
+DEBUG:root:Delete user 30 - reached destination in 3000.762374265954m
+DEBUG:root:Switch to BS2 user19 in 2537.6308026802863m
+DEBUG:root:Create user 60
+DEBUG:root:Delete user 26 - reached destination in 3000.2307962849236m
+DEBUG:root:Delete user 22 - reached destination in 3000.489022570643m
+DEBUG:root:Switch to BS2 user34 in 2157.5282144407315m
+DEBUG:root:Switch to BS2 user35 in 2898.1248224694173m
+DEBUG:root:Create user 61
+DEBUG:root:Create user 62
+DEBUG:root:Switch to BS2 user62 in 2004.8631021179551m
+DEBUG:root:Create user 63
+DEBUG:root:Create user 64
+DEBUG:root:Delete user 35 - reached destination in 3000.6699972518436m
+DEBUG:root:Delete user 18 - reached destination in 3000.2616214023087m
+DEBUG:root:Delete user 31 - reached destination in 3000.1771075498277m
+DEBUG:root:Switch to BS2 user56 in 2134.395837118458m
+DEBUG:root:Create user 65
+DEBUG:root:Create user 66
+DEBUG:root:Create user 67
+DEBUG:root:Create user 68
+DEBUG:root:Delete user 39 - reached destination in 3000.225102221052m
+DEBUG:root:Create user 69
+DEBUG:root:Switch to BS2 user27 in 2959.074632907504m
+DEBUG:root:Delete user 5 - reached destination in 3000.3668880292134m
+DEBUG:root:Delete user 27 - reached destination in 3000.5849690863165m
+DEBUG:root:Delete user 14 - reached destination in 3000.3686918503463m
+DEBUG:root:Create user 70
+DEBUG:root:Create user 71
+DEBUG:root:Create user 72
+DEBUG:root:Switch to BS2 user72 in 2004.0817637853706m
+DEBUG:root:Create user 73
+DEBUG:root:Delete user 44 - reached destination in 3000.276587896954m
+DEBUG:root:Switch to BS2 user33 in 2529.068884429953m
+DEBUG:root:Create user 74
+DEBUG:root:Create user 75
+DEBUG:root:Switch to BS2 user75 in 2001.1473622855954m
+DEBUG:root:Create user 76
+DEBUG:root:Delete user 36 - reached destination in 3000.2350292201063m
+DEBUG:root:Switch to BS2 user50 in 2577.351851395845m
+DEBUG:root:Delete user 40 - reached destination in 3000.0151654276815m
+DEBUG:root:Create user 77
+DEBUG:root:Delete user 23 - reached destination in 3000.1121314304983m
+DEBUG:root:Create user 78
+DEBUG:root:Switch to BS2 user54 in 2658.707659226464m
+DEBUG:root:Create user 79
+DEBUG:root:Create user 80
+DEBUG:root:Switch to BS2 user80 in 2000.7566931193026m
+DEBUG:root:Create user 81
+DEBUG:root:Switch to BS2 user81 in 2018.8256608585962m
+DEBUG:root:Create user 82
+DEBUG:root:Delete user 32 - reached destination in 3000.0090625433977m
+DEBUG:root:Delete user 53 - reached destination in 3000.456138745317m
+DEBUG:root:Create user 83
+DEBUG:root:Switch to BS2 user83 in 2002.3222916195277m
+DEBUG:root:Delete user 49 - reached destination in 3000.1320462173762m
+DEBUG:root:Delete user 45 - reached destination in 3000.6287294077692m
+DEBUG:root:Switch to BS2 user41 in 2914.732474161046m
+DEBUG:root:Create user 84
+DEBUG:root:Create user 85
+DEBUG:root:Switch to BS2 user68 in 2477.321259573971m
+DEBUG:root:Create user 86
+DEBUG:root:Switch to BS2 user24 in 2700.209816272036m
+DEBUG:root:Create user 87
+DEBUG:root:Switch to BS2 user87 in 2002.9097562864933m
+DEBUG:root:Switch to BS2 user28 in 2927.983842059964m
+DEBUG:root:Delete user 10 - reached destination in 3000.0800026210977m
+DEBUG:root:Delete user 58 - reached destination in 3000.4991635315446m
+DEBUG:root:Delete user 41 - reached destination in 3000.1075050827453m
+DEBUG:root:Delete user 54 - reached destination in 3000.232459026971m
+DEBUG:root:Create user 88
+DEBUG:root:Create user 89
+DEBUG:root:Switch to BS2 user88 in 2001.931622453235m
+DEBUG:root:Switch to BS2 user86 in 2090.199050778241m
+DEBUG:root:Create user 90
+DEBUG:root:Create user 91
+DEBUG:root:Delete user 19 - reached destination in 3000.2701843858545m
+DEBUG:root:Delete user 1 - reached destination in 3000.139929156062m
+DEBUG:root:Delete user 62 - reached destination in 3000.826415875387m
+DEBUG:root:Switch to BS2 user57 in 2197.6388307299144m
+DEBUG:root:Create user 92
+DEBUG:root:Switch to BS2 user76 in 2592.0581677563696m
+DEBUG:root:Switch to BS2 user90 in 2079.6613152035898m
+DEBUG:root:Delete user 28 - reached destination in 3000.0520253172476m
+DEBUG:root:Delete user 50 - reached destination in 3000.2884385622838m
+DEBUG:root:Switch to BS2 user64 in 2629.620342181757m
+DEBUG:root:Delete user 37 - reached destination in 3000.2422245585108m
+DEBUG:root:Create user 93
+DEBUG:root:Create user 94
+DEBUG:root:Create user 95
+DEBUG:root:Create user 96
+DEBUG:root:Delete user 67 - reached destination in 3000.0360079919474m
+DEBUG:root:Create user 97
+DEBUG:root:Create user 98
+DEBUG:root:Create user 99
+DEBUG:root:Delete user 59 - reached destination in 3000.4625976192815m
+DEBUG:root:Delete user 63 - reached destination in 3000.767830137869m
+DEBUG:root:Create user 100
+DEBUG:root:Create user 101
+DEBUG:root:Delete user 46 - reached destination in 3000.270893136404m
+DEBUG:root:Create user 102
+DEBUG:root:Switch to BS2 user102 in 2001.737748787616m
+DEBUG:root:Switch to BS2 user101 in 2055.9471819900177m
+DEBUG:root:Switch to BS2 user91 in 2331.5365463879098m
+DEBUG:root:Delete user 55 - reached destination in 3000.0043728324367m
+DEBUG:root:Create user 103
+DEBUG:root:Delete user 76 - reached destination in 3000.1487344906577m
+DEBUG:root:Create user 104
+DEBUG:root:Switch to BS2 user82 in 2598.037092044662m
+DEBUG:root:Delete user 72 - reached destination in 3000.032127415807m
+DEBUG:root:Create user 105
+DEBUG:root:Switch to BS2 user105 in 2003.3033472878412m
+DEBUG:root:Delete user 68 - reached destination in 3000.0684076871926m
+DEBUG:root:Create user 106
+DEBUG:root:Switch to BS2 user60 in 2818.7375339188475m
+DEBUG:root:Switch to BS2 user85 in 2792.188699550234m
+DEBUG:root:Delete user 81 - reached destination in 3000.3271610772235m
+DEBUG:root:Create user 107
+DEBUG:root:Delete user 33 - reached destination in 3000.043930569558m
+DEBUG:root:Create user 108
+DEBUG:root:Delete user 64 - reached destination in 3000.5324181854257m
+DEBUG:root:Create user 109
+DEBUG:root:Delete user 77 - reached destination in 3000.286641770092m
+DEBUG:root:Create user 110
+DEBUG:root:Switch to BS2 user110 in 2002.9126781215484m
+DEBUG:root:Delete user 42 - reached destination in 3000.2494999550054m
+DEBUG:root:Create user 111
+DEBUG:root:Delete user 24 - reached destination in 3000.2121839439496m
+DEBUG:root:Create user 112
+DEBUG:root:Delete user 85 - reached destination in 3000.4545247391193m
+DEBUG:root:Create user 113
+DEBUG:root:Switch to BS2 user61 in 2515.0346052658683m
+DEBUG:root:Switch to BS2 user95 in 2600.4487862025803m
+DEBUG:root:Delete user 51 - reached destination in 3000.1570025259534m
+DEBUG:root:Create user 114
+DEBUG:root:Switch to BS2 user73 in 2977.643434915007m
+DEBUG:root:Switch to BS2 user114 in 2031.5012850966264m
+DEBUG:root:Delete user 73 - reached destination in 3000.610296560629m
+DEBUG:root:Create user 115
+DEBUG:root:Delete user 60 - reached destination in 3000.112251064609m
+DEBUG:root:Create user 116
+DEBUG:root:Delete user 15 - reached destination in 3000.2088185461434m
+DEBUG:root:Create user 117
+DEBUG:root:Switch to BS2 user100 in 2548.1920417933234m
+DEBUG:root:Delete user 90 - reached destination in 3000.6893303102624m
+DEBUG:root:Create user 118
+DEBUG:root:Delete user 82 - reached destination in 3000.0289121938777m
+DEBUG:root:Create user 119
+DEBUG:root:Delete user 86 - reached destination in 3000.7429168241065m
+DEBUG:root:Create user 120
+DEBUG:root:Delete user 69 - reached destination in 3000.427317374266m
+DEBUG:root:Create user 121
+DEBUG:root:Delete user 6 - reached destination in 3000.1434119288792m
+DEBUG:root:Create user 122
+DEBUG:root:Switch to BS2 user104 in 2695.3125340665847m
+DEBUG:root:Switch to BS2 user38 in 2857.85934845733m
+DEBUG:root:Delete user 78 - reached destination in 3000.539937810596m
+DEBUG:root:Create user 123
+DEBUG:root:Delete user 99 - reached destination in 3000.774591559455m
+DEBUG:root:Create user 124
+DEBUG:root:Switch to BS2 user122 in 2122.486889608114m
+DEBUG:root:Switch to BS2 user113 in 2472.9060112592924m
+DEBUG:root:Delete user 95 - reached destination in 3000.7479770043005m
+DEBUG:root:Create user 125
+DEBUG:root:Delete user 91 - reached destination in 3000.2051926892636m
+DEBUG:root:Create user 126
+DEBUG:root:Switch to BS2 user97 in 2564.456441376631m
+DEBUG:root:Switch to BS2 user109 in 2648.209271670821m
+DEBUG:root:Switch to BS2 user74 in 2930.542200834189m
+DEBUG:root:Delete user 87 - reached destination in 3000.3742112967852m
+DEBUG:root:Create user 127
+DEBUG:root:Delete user 56 - reached destination in 3000.0020148479084m
+DEBUG:root:Create user 128
+DEBUG:root:Switch to BS2 user96 in 2895.3082250613033m
+DEBUG:root:Delete user 100 - reached destination in 3000.339655779191m
+DEBUG:root:Create user 129
+DEBUG:root:Delete user 104 - reached destination in 3000.1539898888805m
+DEBUG:root:Create user 130
+DEBUG:root:Switch to BS2 user65 in 2989.037677002625m
+DEBUG:root:Delete user 65 - reached destination in 3000.224140588068m
+DEBUG:root:Create user 131
+DEBUG:root:Delete user 47 - reached destination in 3000.277426327705m
+DEBUG:root:Create user 132
+DEBUG:root:Delete user 74 - reached destination in 3000.258473532593m
+DEBUG:root:Create user 133
+DEBUG:root:Delete user 108 - reached destination in 3000.0814648688297m
+DEBUG:root:Create user 134
+DEBUG:root:Delete user 96 - reached destination in 3000.3096754675194m
+DEBUG:root:Create user 135
+DEBUG:root:Delete user 83 - reached destination in 3000.443229692547m
+DEBUG:root:Create user 136
+DEBUG:root:Delete user 38 - reached destination in 3000.255970416543m
+DEBUG:root:Create user 137
+DEBUG:root:Switch to BS2 user115 in 2503.392987469226m
+DEBUG:root:Delete user 113 - reached destination in 3000.446997304223m
+DEBUG:root:Create user 138
+DEBUG:root:Delete user 92 - reached destination in 3000.077586720043m
+DEBUG:root:Create user 139
+DEBUG:root:Delete user 109 - reached destination in 3000.716834776322m
+DEBUG:root:Create user 140
+DEBUG:root:Switch to BS2 user133 in 2165.6060775351248m
+DEBUG:root:Delete user 105 - reached destination in 3000.253558757998m
+DEBUG:root:Create user 141
+DEBUG:root:Switch to BS2 user141 in 2004.0905292905359m
+DEBUG:root:Delete user 29 - reached destination in 3000.1986108871934m
+DEBUG:root:Create user 142
+DEBUG:root:Switch to BS2 user142 in 2003.1123954572774m
+DEBUG:root:Switch to BS2 user123 in 2578.2011484290006m
+DEBUG:root:Delete user 101 - reached destination in 3000.5311575305577m
+DEBUG:root:Create user 143
+DEBUG:root:Switch to BS2 user119 in 2659.2084079109186m
+DEBUG:root:Switch to BS2 user43 in 2765.318061511199m
+DEBUG:root:Delete user 118 - reached destination in 3000.646305101698m
+DEBUG:root:Create user 144
+DEBUG:root:Delete user 122 - reached destination in 3000.465434203763m
+DEBUG:root:Create user 145
+DEBUG:root:Delete user 114 - reached destination in 3000.3408089573127m
+DEBUG:root:Create user 146
+DEBUG:root:Switch to BS2 user124 in 2603.574589216594m
+DEBUG:root:Delete user 79 - reached destination in 3000.3012208466607m
+DEBUG:root:Create user 147
+DEBUG:root:Switch to BS2 user127 in 2772.0494126990834m
+DEBUG:root:Delete user 110 - reached destination in 3000.2136669401007m
+DEBUG:root:Create user 148
+DEBUG:root:Delete user 88 - reached destination in 3000.194106285043m
+DEBUG:root:Create user 149
+DEBUG:root:Delete user 70 - reached destination in 3000.028050016951m
+DEBUG:root:Create user 150
+DEBUG:root:Switch to BS2 user149 in 2000.7654586244678m
+DEBUG:root:Delete user 97 - reached destination in 3000.3564383371668m
+DEBUG:root:Create user 151
+DEBUG:root:Switch to BS2 user120 in 2629.5977736599484m
+DEBUG:root:Delete user 123 - reached destination in 3000.3915010542682m
+DEBUG:root:Create user 152
+DEBUG:root:Delete user 20 - reached destination in 3000.0838893380624m
+DEBUG:root:Create user 153
+DEBUG:root:Delete user 61 - reached destination in 3000.025525224523m
+DEBUG:root:Create user 154
+DEBUG:root:Delete user 131 - reached destination in 3000.6816097891424m
+DEBUG:root:Create user 155
+DEBUG:root:Delete user 106 - reached destination in 3000.306828161524m
+DEBUG:root:Create user 156
+DEBUG:root:Switch to BS2 user156 in 2002.9185217916586m
+DEBUG:root:Delete user 119 - reached destination in 3000.0067169063655m
+DEBUG:root:Create user 157
+DEBUG:root:Delete user 127 - reached destination in 3000.8365305577463m
+DEBUG:root:Create user 158
+DEBUG:root:Delete user 52 - reached destination in 3000.0120656811573m
+DEBUG:root:Create user 159
+DEBUG:root:Delete user 136 - reached destination in 3000.203495564149m
+DEBUG:root:Create user 160
+DEBUG:root:Delete user 115 - reached destination in 3000.228751654806m
+DEBUG:root:Create user 161
+DEBUG:root:Switch to BS2 user161 in 2002.5278526253658m
+DEBUG:root:Delete user 132 - reached destination in 3000.689583994515m
+DEBUG:root:Create user 162
+DEBUG:root:Delete user 128 - reached destination in 3000.477036588096m
+DEBUG:root:Create user 163
+DEBUG:root:Switch to BS2 user150 in 2526.483484360565m
+DEBUG:root:Delete user 124 - reached destination in 3000.5200397824756m
+DEBUG:root:Create user 164
+DEBUG:root:Delete user 141 - reached destination in 3000.5434644650736m
+DEBUG:root:Create user 165
+DEBUG:root:Delete user 137 - reached destination in 3000.4752564913397m
+DEBUG:root:Create user 166
+DEBUG:root:Delete user 102 - reached destination in 3000.2482021518017m
+DEBUG:root:Create user 167
+DEBUG:root:Switch to BS2 user138 in 2682.7412857002964m
+DEBUG:root:Delete user 145 - reached destination in 3000.1551081140487m
+DEBUG:root:Create user 168
+DEBUG:root:Delete user 93 - reached destination in 3000.078683225431m
+DEBUG:root:Create user 169
+DEBUG:root:Delete user 111 - reached destination in 3000.1593970459294m
+DEBUG:root:Create user 170
+DEBUG:root:Delete user 133 - reached destination in 3000.050785115372m
+DEBUG:root:Create user 171
+DEBUG:root:Delete user 120 - reached destination in 3000.0246289818815m
+DEBUG:root:Create user 172
+DEBUG:root:Switch to BS2 user172 in 2000.7683804595229m
+DEBUG:root:Delete user 43 - reached destination in 3000.1444800877975m
+DEBUG:root:Create user 173
+DEBUG:root:Delete user 84 - reached destination in 3000.0533929835588m
+DEBUG:root:Create user 174
+DEBUG:root:Switch to BS2 user98 in 2760.1077469251068m
+DEBUG:root:Switch to BS2 user121 in 2551.4630880178815m
+DEBUG:root:Delete user 142 - reached destination in 3000.3238999686228m
+DEBUG:root:Create user 175
+DEBUG:root:Delete user 11 - reached destination in 3000.128805625878m
+DEBUG:root:Create user 176
+DEBUG:root:Delete user 146 - reached destination in 3000.4421775953233m
+DEBUG:root:Create user 177
+DEBUG:root:Switch to BS2 user177 in 2004.8777112932305m
+DEBUG:root:Delete user 150 - reached destination in 3000.66160626837m
+DEBUG:root:Create user 178
+DEBUG:root:Delete user 154 - reached destination in 3000.3067968178198m
+DEBUG:root:Create user 179
+DEBUG:root:Switch to BS2 user151 in 2757.1428911790335m
+DEBUG:root:Delete user 75 - reached destination in 3000.0409681239757m
+DEBUG:root:Create user 180
+DEBUG:root:Delete user 129 - reached destination in 3000.1669204284353m
+DEBUG:root:Create user 181
+DEBUG:root:Switch to BS2 user147 in 2757.7285994104186m
+DEBUG:root:Switch to BS2 user159 in 2850.1892073411477m
+DEBUG:root:Switch to BS2 user160 in 2708.910461933812m
+DEBUG:root:Delete user 138 - reached destination in 3000.3775791215244m
+DEBUG:root:Create user 182
+DEBUG:root:Delete user 155 - reached destination in 3000.6611644786863m
+DEBUG:root:Create user 183
+DEBUG:root:Delete user 159 - reached destination in 3000.855649148442m
+DEBUG:root:Create user 184
+DEBUG:root:Switch to BS2 user116 in 2946.395449784277m
+DEBUG:root:Delete user 151 - reached destination in 3000.037507492582m
+DEBUG:root:Create user 185
+DEBUG:root:Delete user 116 - reached destination in 3000.122304029779m
+DEBUG:root:Create user 186
+DEBUG:root:Switch to BS2 user143 in 2884.438016993481m
+DEBUG:root:Delete user 125 - reached destination in 3000.1893397868325m
+DEBUG:root:Create user 187
+DEBUG:root:Switch to BS2 user187 in 2004.096372960646m
+DEBUG:root:Delete user 147 - reached destination in 3000.5065845663494m
+DEBUG:root:Create user 188
+DEBUG:root:Switch to BS2 user188 in 2003.1182391273876m
+DEBUG:root:Switch to BS2 user164 in 2968.5105363148177m
+DEBUG:root:Delete user 134 - reached destination in 3000.120012870728m
+DEBUG:root:Create user 189
+DEBUG:root:Delete user 160 - reached destination in 3000.6085352913447m
+DEBUG:root:Create user 190
+DEBUG:root:Delete user 66 - reached destination in 3000.18637109318m
+DEBUG:root:Create user 191
+DEBUG:root:Delete user 164 - reached destination in 3000.439455094427m
+DEBUG:root:Create user 192
+DEBUG:root:Delete user 156 - reached destination in 3000.4692701809313m
+DEBUG:root:Create user 193
+DEBUG:root:Delete user 168 - reached destination in 3000.779796448824m
+DEBUG:root:Create user 194
+DEBUG:root:Delete user 107 - reached destination in 3000.0719108704184m
+DEBUG:root:Create user 195
+DEBUG:root:Delete user 143 - reached destination in 3000.114997015312m
+DEBUG:root:Create user 196
+DEBUG:root:Switch to BS2 user179 in 2463.340959196947m
+DEBUG:root:Delete user 34 - reached destination in 3000.13146632572m
+DEBUG:root:Create user 197
+DEBUG:root:Switch to BS2 user162 in 2480.1028817948545m
+DEBUG:root:Switch to BS2 user166 in 2560.3695029692276m
+DEBUG:root:Delete user 98 - reached destination in 3000.0570144925514m
+DEBUG:root:Create user 198
+DEBUG:root:Switch to BS2 user169 in 2964.2044222012346m
+DEBUG:root:Delete user 173 - reached destination in 3000.485513244972m
+DEBUG:root:Create user 199
+DEBUG:root:Switch to BS2 user170 in 2695.330201765604m
+DEBUG:root:Delete user 177 - reached destination in 3000.9063573711214m
+DEBUG:root:Create user 200
+DEBUG:root:Delete user 169 - reached destination in 3000.4916854023563m
+DEBUG:root:Create user 201
+DEBUG:root:Delete user 152 - reached destination in 3000.0235064932804m
+DEBUG:root:Create user 202
+DEBUG:root:Switch to BS2 user182 in 2822.9235260805694m
+DEBUG:root:Delete user 165 - reached destination in 3000.0168508383917m
+DEBUG:root:Create user 203
+DEBUG:root:Delete user 161 - reached destination in 3000.018498595126m
+DEBUG:root:Create user 204
+DEBUG:root:Switch to BS2 user183 in 2641.4284360845704m
+DEBUG:root:Switch to BS2 user204 in 2000.9680977952519m
+DEBUG:root:Delete user 178 - reached destination in 3000.6315762288355m
+DEBUG:root:Create user 205
+DEBUG:root:Switch to BS2 user174 in 2964.4872453231674m
+DEBUG:root:Delete user 174 - reached destination in 3000.258063487625m
+DEBUG:root:Create user 206
+DEBUG:root:Delete user 182 - reached destination in 3000.610394307347m
+DEBUG:root:Create user 207
+DEBUG:root:Delete user 89 - reached destination in 3000.018864630215m
+DEBUG:root:Create user 208
+DEBUG:root:Delete user 139 - reached destination in 3000.158912429995m
+DEBUG:root:Create user 209
+DEBUG:root:Delete user 170 - reached destination in 3000.490791882179m
+DEBUG:root:Create user 210
+DEBUG:root:Switch to BS2 user201 in 2436.299421184036m
+DEBUG:root:Delete user 157 - reached destination in 3000.075953759438m
+DEBUG:root:Create user 211
+DEBUG:root:Switch to BS2 user208 in 2042.3112989723159m
+DEBUG:root:Switch to BS2 user130 in 2993.8710721857615m
+DEBUG:root:Delete user 57 - reached destination in 3000.1037399409893m
+DEBUG:root:Create user 212
+DEBUG:root:Delete user 130 - reached destination in 3000.0810788851018m
+DEBUG:root:Create user 213
+DEBUG:root:Delete user 148 - reached destination in 3000.124633751753m
+DEBUG:root:Create user 214
+DEBUG:root:Delete user 183 - reached destination in 3000.0388636985917m
+DEBUG:root:Create user 215
+DEBUG:root:Delete user 191 - reached destination in 3000.467717258077m
+DEBUG:root:Create user 216
+DEBUG:root:Delete user 179 - reached destination in 3000.3022977871256m
+DEBUG:root:Create user 217
+DEBUG:root:Switch to BS2 user210 in 2137.736305135557m
+DEBUG:root:Switch to BS2 user217 in 2001.7523579628914m
+DEBUG:root:Delete user 187 - reached destination in 3000.3342769897586m
+DEBUG:root:Create user 218
+DEBUG:root:Delete user 121 - reached destination in 3000.060204786885m
+DEBUG:root:Create user 219
+DEBUG:root:Switch to BS2 user175 in 2884.1112299525566m
+DEBUG:root:Delete user 166 - reached destination in 3000.2018588466763m
+DEBUG:root:Create user 220
+DEBUG:root:Switch to BS2 user220 in 2003.3179564631166m
+DEBUG:root:Delete user 196 - reached destination in 3000.308251487552m
+DEBUG:root:Create user 221
+DEBUG:root:Switch to BS2 user211 in 2234.0870721831325m
+DEBUG:root:Switch to BS2 user221 in 2021.5263681946954m
+DEBUG:root:Delete user 200 - reached destination in 3000.5297912987658m
+DEBUG:root:Create user 222
+DEBUG:root:Delete user 192 - reached destination in 3000.5400244753673m
+DEBUG:root:Create user 223
+DEBUG:root:Switch to BS2 user219 in 2237.1441843599023m
+DEBUG:root:Delete user 2 - reached destination in 3000.0843330926164m
+DEBUG:root:Create user 224
+DEBUG:root:Delete user 175 - reached destination in 3000.343382148009m
+DEBUG:root:Create user 225
+DEBUG:root:Switch to BS2 user189 in 2648.451904121139m
+DEBUG:root:Delete user 188 - reached destination in 3000.3311120655935m
+DEBUG:root:Create user 226
+DEBUG:root:Delete user 201 - reached destination in 3000.6008192449626m
+DEBUG:root:Create user 227
+DEBUG:root:Delete user 184 - reached destination in 3000.1620667587454m
+DEBUG:root:Create user 228
+DEBUG:root:Delete user 197 - reached destination in 3000.477450748646m
+DEBUG:root:Create user 229
+DEBUG:root:Switch to BS2 user226 in 2060.81358806324m
+DEBUG:root:Delete user 112 - reached destination in 3000.022771779881m
+DEBUG:root:Create user 230
+DEBUG:root:Delete user 205 - reached destination in 3000.3639707322304m
+DEBUG:root:Create user 231
+DEBUG:root:Switch to BS2 user194 in 2589.909862306421m
+DEBUG:root:Switch to BS2 user103 in 2862.618742169744m
+DEBUG:root:Delete user 80 - reached destination in 3000.0456264716854m
+DEBUG:root:Create user 232
+DEBUG:root:Delete user 162 - reached destination in 3000.1885084260784m
+DEBUG:root:Create user 233
+DEBUG:root:Delete user 193 - reached destination in 3000.472661729965m
+DEBUG:root:Create user 234
+DEBUG:root:Delete user 171 - reached destination in 3000.0540840465637m
+DEBUG:root:Create user 235
+DEBUG:root:Delete user 180 - reached destination in 3000.0272197120603m
+DEBUG:root:Create user 236
+DEBUG:root:Delete user 153 - reached destination in 3000.080897027609m
+DEBUG:root:Create user 237
+DEBUG:root:Delete user 214 - reached destination in 3000.1544693333076m
+DEBUG:root:Create user 238
+DEBUG:root:Switch to BS2 user216 in 2565.757900162467m
+DEBUG:root:Delete user 206 - reached destination in 3000.1692206635416m
+DEBUG:root:Create user 239
+DEBUG:root:Delete user 210 - reached destination in 3000.227930151068m
+DEBUG:root:Create user 240
+DEBUG:root:Delete user 202 - reached destination in 3000.1329879252758m
+DEBUG:root:Create user 241
+DEBUG:root:Delete user 25 - reached destination in 3000.0673770777703m
+DEBUG:root:Create user 242
+DEBUG:root:Delete user 144 - reached destination in 3000.0505390069766m
+DEBUG:root:Create user 243
+DEBUG:root:Switch to BS2 user243 in 2003.3208782981717m
+DEBUG:root:Switch to BS2 user238 in 2152.9157555358906m
+DEBUG:root:Switch to BS2 user227 in 2125.067328383446m
+DEBUG:root:Delete user 219 - reached destination in 3000.1298209961096m
+DEBUG:root:Create user 244
+DEBUG:root:Switch to BS2 user203 in 2705.7035884978363m
+DEBUG:root:Switch to BS2 user228 in 2609.23531407983m
+DEBUG:root:Delete user 189 - reached destination in 3000.2852144759745m
+DEBUG:root:Create user 245
+DEBUG:root:Delete user 198 - reached destination in 3000.193540175733m
+DEBUG:root:Create user 246
+DEBUG:root:Delete user 223 - reached destination in 3000.152056492388m
+DEBUG:root:Create user 247
+DEBUG:root:Switch to BS2 user242 in 2133.2693760743336m
+DEBUG:root:Switch to BS2 user247 in 2003.9083429651373m
+DEBUG:root:Delete user 215 - reached destination in 3000.5871948143563m
+DEBUG:root:Create user 248
+DEBUG:root:Switch to BS2 user248 in 2002.9302091318789m
+DEBUG:root:Switch to BS2 user181 in 2582.387174382121m
+DEBUG:root:Delete user 211 - reached destination in 3000.0199723662854m
+DEBUG:root:Create user 249
+DEBUG:root:Delete user 135 - reached destination in 3000.0079791851954m
+DEBUG:root:Create user 250
+DEBUG:root:Switch to BS2 user207 in 2989.1550337542217m
+DEBUG:root:Switch to BS2 user250 in 2000.973941465362m
+DEBUG:root:Delete user 207 - reached destination in 3000.3032974543207m
+DEBUG:root:Create user 251
+DEBUG:root:Switch to BS2 user233 in 2683.4292906839787m
+DEBUG:root:Switch to BS2 user251 in 2004.495807632103m
+DEBUG:root:Switch to BS2 user230 in 2494.6405354537446m
+DEBUG:root:Switch to BS2 user186 in 2325.7453521441134m
+DEBUG:root:Delete user 103 - reached destination in 3000.109048908681m
+DEBUG:root:Create user 252
+DEBUG:root:Switch to BS2 user252 in 2003.5176737988445m
+DEBUG:root:Delete user 224 - reached destination in 3000.5688935270678m
+DEBUG:root:Create user 253
+DEBUG:root:Delete user 220 - reached destination in 3000.0320779830217m
+DEBUG:root:Create user 254
+DEBUG:root:Delete user 228 - reached destination in 3000.1163784230916m
+DEBUG:root:Create user 255
+DEBUG:root:Switch to BS2 user235 in 2375.9702585347295m
+DEBUG:root:Delete user 216 - reached destination in 3000.4521941097064m
+DEBUG:root:Create user 256
+DEBUG:root:Switch to BS2 user244 in 2289.094666970297m
+DEBUG:root:Delete user 194 - reached destination in 3000.3275778968314m
+DEBUG:root:Create user 257
+DEBUG:root:Switch to BS2 user229 in 2894.152899588029m
+DEBUG:root:Switch to BS2 user236 in 2230.7602698816477m
+DEBUG:root:Delete user 185 - reached destination in 3000.21109201803m
+DEBUG:root:Create user 258
+DEBUG:root:Switch to BS2 user256 in 2092.7761293273343m
+DEBUG:root:Delete user 176 - reached destination in 3000.07136529794m
+DEBUG:root:Create user 259
+DEBUG:root:Delete user 48 - reached destination in 3000.105716986582m
+DEBUG:root:Create user 260
+DEBUG:root:Switch to BS2 user158 in 2896.820844631086m
+DEBUG:root:Delete user 233 - reached destination in 3000.1204145783554m
+DEBUG:root:Create user 261
+DEBUG:root:Switch to BS2 user261 in 2003.7144692995184m
+DEBUG:root:Switch to BS2 user140 in 2613.814975824202m
+DEBUG:root:Delete user 203 - reached destination in 3000.3630570542964m
+DEBUG:root:Create user 262
+DEBUG:root:Delete user 237 - reached destination in 3000.777988934061m
+DEBUG:root:Create user 263
+DEBUG:root:Delete user 229 - reached destination in 3000.2984088944695m
+DEBUG:root:Create user 264
+DEBUG:root:Delete user 225 - reached destination in 3000.546798054747m
+DEBUG:root:Create user 265
+DEBUG:root:Switch to BS2 user249 in 2259.626014716521m
+DEBUG:root:Switch to BS2 user231 in 2460.3762614143175m
+DEBUG:root:Switch to BS2 user253 in 2254.9698125449345m
+DEBUG:root:Delete user 167 - reached destination in 3000.0280171528257m
+DEBUG:root:Create user 266
+DEBUG:root:Delete user 212 - reached destination in 3000.3650639032066m
+DEBUG:root:Create user 267
+DEBUG:root:Switch to BS2 user257 in 2242.030158559518m
+DEBUG:root:Delete user 246 - reached destination in 3000.7504483116677m
+DEBUG:root:Create user 268
+DEBUG:root:Switch to BS2 user268 in 2001.36753246671m
+DEBUG:root:Delete user 242 - reached destination in 3000.8100241969314m
+DEBUG:root:Create user 269
+DEBUG:root:Delete user 238 - reached destination in 3000.633196419323m
+DEBUG:root:Create user 270
+DEBUG:root:Delete user 221 - reached destination in 3000.0401920013906m
+DEBUG:root:Create user 271
+DEBUG:root:Switch to BS2 user241 in 2199.2602253462474m
+DEBUG:root:Delete user 234 - reached destination in 3000.3313117584325m
+DEBUG:root:Create user 272
+DEBUG:root:Delete user 158 - reached destination in 3000.166937671185m
+DEBUG:root:Create user 273
+DEBUG:root:Switch to BS2 user273 in 2000.976863300417m
+DEBUG:root:Delete user 126 - reached destination in 3000.1432529951257m
+DEBUG:root:Create user 274
+DEBUG:root:Switch to BS2 user274 in 2004.498729467158m
+DEBUG:root:Switch to BS2 user255 in 2106.3888673503398m
+DEBUG:root:Delete user 230 - reached destination in 3000.442190681852m
+DEBUG:root:Create user 275
+DEBUG:root:Delete user 247 - reached destination in 3000.535799075151m
+DEBUG:root:Create user 276
+DEBUG:root:Switch to BS2 user232 in 2225.6402604090476m
+DEBUG:root:Delete user 243 - reached destination in 3000.2485434089876m
+DEBUG:root:Create user 277
+DEBUG:root:Delete user 251 - reached destination in 3000.7667789063516m
+DEBUG:root:Create user 278
+DEBUG:root:Switch to BS2 user258 in 2361.869842601177m
+DEBUG:root:Delete user 71 - reached destination in 3000.089126396358m
+DEBUG:root:Create user 279
+DEBUG:root:Switch to BS2 user260 in 2782.726202547359m
+DEBUG:root:Delete user 217 - reached destination in 3000.2459252184326m
+DEBUG:root:Create user 280
+DEBUG:root:Switch to BS2 user280 in 2006.2598529352158m
+DEBUG:root:Delete user 239 - reached destination in 3000.429389021404m
+DEBUG:root:Create user 281
+DEBUG:root:Delete user 199 - reached destination in 3000.052483696094m
+DEBUG:root:Create user 282
+DEBUG:root:Delete user 208 - reached destination in 3000.226663205849m
+DEBUG:root:Create user 283
+DEBUG:root:Switch to BS2 user283 in 2028.1731498069917m
+DEBUG:root:Delete user 226 - reached destination in 3000.3055575017534m
+DEBUG:root:Create user 284
+DEBUG:root:Delete user 252 - reached destination in 3000.4264283913753m
+DEBUG:root:Create user 285
+DEBUG:root:Delete user 256 - reached destination in 3000.0117302716208m
+DEBUG:root:Create user 286
+DEBUG:root:Delete user 248 - reached destination in 3000.37339762382m
+DEBUG:root:Create user 287
+DEBUG:root:Delete user 260 - reached destination in 3000.4629879082586m
+DEBUG:root:Create user 288
+DEBUG:root:Switch to BS2 user269 in 2819.463210966535m
+DEBUG:root:Delete user 190 - reached destination in 3000.225033516606m
+DEBUG:root:Create user 289
+DEBUG:root:Delete user 235 - reached destination in 3000.012217335525m
+DEBUG:root:Create user 290
+DEBUG:root:Delete user 265 - reached destination in 3000.629840604456m
+DEBUG:root:Create user 291
+DEBUG:root:Switch to BS2 user266 in 2749.849310055719m
+DEBUG:root:Delete user 261 - reached destination in 3000.678029290268m
+DEBUG:root:Create user 292
+DEBUG:root:Switch to BS2 user263 in 2466.2750730720218m
+DEBUG:root:Delete user 269 - reached destination in 3000.370960404257m
+DEBUG:root:Create user 293
+DEBUG:root:Delete user 244 - reached destination in 3000.351886517965m
+DEBUG:root:Create user 294
+DEBUG:root:Delete user 257 - reached destination in 3000.0160814900473m
+DEBUG:root:Create user 295
+DEBUG:root:Delete user 181 - reached destination in 3000.115329954805m
+DEBUG:root:Create user 296
+DEBUG:root:Delete user 94 - reached destination in 3000.0176053070986m
+DEBUG:root:Create user 297
+DEBUG:root:Delete user 253 - reached destination in 3000.070838448222m
+DEBUG:root:Create user 298
+DEBUG:root:Delete user 149 - reached destination in 3000.1482387310193m
+DEBUG:root:Create user 299
+DEBUG:root:Delete user 270 - reached destination in 3000.501535889212m
+DEBUG:root:Create user 300
+DEBUG:root:Delete user 274 - reached destination in 3000.51743349618m
+DEBUG:root:Create user 301
+DEBUG:root:Delete user 266 - reached destination in 3000.4638401009315m
+DEBUG:root:Create user 302
+DEBUG:root:Switch to BS2 user272 in 2517.292241570546m
+DEBUG:root:Delete user 262 - reached destination in 3000.4042464650574m
+DEBUG:root:Create user 303
+DEBUG:root:Delete user 231 - reached destination in 3000.235221989536m
+DEBUG:root:Create user 304
+DEBUG:root:Switch to BS2 user286 in 2297.2776414079653m
+DEBUG:root:Delete user 240 - reached destination in 3000.1584288699237m
+DEBUG:root:Create user 305
+DEBUG:root:Delete user 222 - reached destination in 3000.0242522220724m
+DEBUG:root:Create user 306
+DEBUG:root:Switch to BS2 user306 in 2004.698446802887m
+DEBUG:root:Delete user 279 - reached destination in 3000.7234892910374m
+DEBUG:root:Create user 307
+DEBUG:root:Delete user 275 - reached destination in 3000.553279154259m
+DEBUG:root:Create user 308
+DEBUG:root:Delete user 249 - reached destination in 3000.243383013122m
+DEBUG:root:Create user 309
+DEBUG:root:Delete user 283 - reached destination in 3000.1468181484342m
+DEBUG:root:Create user 310
+DEBUG:root:Delete user 271 - reached destination in 3000.197659724849m
+DEBUG:root:Create user 311
+DEBUG:root:Switch to BS2 user288 in 2935.0146800945467m
+DEBUG:root:Switch to BS2 user213 in 2986.198664329885m
+DEBUG:root:Delete user 288 - reached destination in 3000.448488277959m
+DEBUG:root:Create user 312
+DEBUG:root:Delete user 213 - reached destination in 3000.1773838809813m
+DEBUG:root:Create user 313
+DEBUG:root:Switch to BS2 user312 in 2003.329643803337m
+DEBUG:root:Delete user 258 - reached destination in 3000.084469991614m
+DEBUG:root:Create user 314
+DEBUG:root:Switch to BS2 user282 in 2330.737050147184m
+DEBUG:root:Delete user 292 - reached destination in 3000.9687678565256m
+DEBUG:root:Create user 315
+DEBUG:root:Delete user 284 - reached destination in 3000.721693427191m
+DEBUG:root:Create user 316
+DEBUG:root:Delete user 267 - reached destination in 3000.1921103065015m
+DEBUG:root:Create user 317
+DEBUG:root:Delete user 117 - reached destination in 3000.0043019765517m
+DEBUG:root:Create user 318
+DEBUG:root:Switch to BS2 user318 in 2001.9608408037857m
+DEBUG:root:Delete user 280 - reached destination in 3000.3244990471394m
+DEBUG:root:Create user 319
+DEBUG:root:Delete user 172 - reached destination in 3000.1240061163626m
+DEBUG:root:Create user 320
+DEBUG:root:Delete user 276 - reached destination in 3000.204472372654m
+DEBUG:root:Create user 321
+DEBUG:root:Delete user 293 - reached destination in 3000.466103969251m
+DEBUG:root:Create user 322
+DEBUG:root:Delete user 204 - reached destination in 3000.045022494073m
+DEBUG:root:Create user 323
+DEBUG:root:Delete user 297 - reached destination in 3000.266919351986m
+DEBUG:root:Create user 324
+DEBUG:root:Delete user 289 - reached destination in 3000.012623665197m
+DEBUG:root:Create user 325
+DEBUG:root:Switch to BS2 user195 in 2886.3805969301993m
+DEBUG:root:Switch to BS2 user163 in 2820.567366925041m
+DEBUG:root:Delete user 263 - reached destination in 3000.0650888513046m
+DEBUG:root:Create user 326
+DEBUG:root:Delete user 285 - reached destination in 3000.376766440667m
+DEBUG:root:Create user 327
+DEBUG:root:Delete user 302 - reached destination in 3000.6130518832697m
+DEBUG:root:Create user 328
+DEBUG:root:Delete user 254 - reached destination in 3000.236768369091m
+DEBUG:root:Create user 329
+DEBUG:root:Delete user 245 - reached destination in 3000.2595930022053m
+DEBUG:root:Create user 330
+DEBUG:root:Switch to BS2 user290 in 2797.1108130269486m
+DEBUG:root:Switch to BS2 user308 in 2491.946937064992m
+DEBUG:root:Delete user 272 - reached destination in 3000.176533588403m
+DEBUG:root:Create user 331
+DEBUG:root:Delete user 298 - reached destination in 3000.678961183121m
+DEBUG:root:Create user 332
+DEBUG:root:Delete user 306 - reached destination in 3000.7691690151655m
+DEBUG:root:Create user 333
+DEBUG:root:Switch to BS2 user333 in 2000.7888333049084m
+DEBUG:root:Delete user 294 - reached destination in 3000.019584357834m
+DEBUG:root:Create user 334
+DEBUG:root:Switch to BS2 user313 in 2405.8706208355484m
+DEBUG:root:Delete user 236 - reached destination in 3000.1168781711144m
+DEBUG:root:Create user 335
+DEBUG:root:Delete user 281 - reached destination in 3000.1532164456366m
+DEBUG:root:Create user 336
+DEBUG:root:Switch to BS2 user326 in 2238.318530466503m
+DEBUG:root:Delete user 311 - reached destination in 3000.2659672174395m
+DEBUG:root:Create user 337
+DEBUG:root:Switch to BS2 user315 in 2867.4369361911927m
+DEBUG:root:Delete user 307 - reached destination in 3000.020126236166m
+DEBUG:root:Create user 338
+DEBUG:root:Delete user 290 - reached destination in 3000.028827892972m
+DEBUG:root:Create user 339
+DEBUG:root:Switch to BS2 user329 in 2441.928651966652m
+DEBUG:root:Delete user 315 - reached destination in 3000.587526848082m
+DEBUG:root:Create user 340
+DEBUG:root:Delete user 140 - reached destination in 3000.0509695057503m
+DEBUG:root:Create user 341
+DEBUG:root:Delete user 303 - reached destination in 3000.005178209677m
+DEBUG:root:Create user 342
+DEBUG:root:Switch to BS2 user336 in 2149.741862806495m
+DEBUG:root:Delete user 195 - reached destination in 3000.0705551511546m
+DEBUG:root:Create user 343
+DEBUG:root:Delete user 299 - reached destination in 3000.335768829042m
+DEBUG:root:Create user 344
+DEBUG:root:Delete user 316 - reached destination in 3000.429503315268m
+DEBUG:root:Create user 345
+DEBUG:root:Delete user 320 - reached destination in 3000.01523647377m
+DEBUG:root:Create user 346
+DEBUG:root:Delete user 312 - reached destination in 3000.224998522086m
+DEBUG:root:Create user 347
+DEBUG:root:Delete user 227 - reached destination in 3000.150219215049m
+DEBUG:root:Create user 348
+DEBUG:root:Delete user 308 - reached destination in 3000.3469489482322m
+DEBUG:root:Create user 349
+DEBUG:root:Delete user 286 - reached destination in 3000.3181298561867m
+DEBUG:root:Create user 350
+DEBUG:root:Delete user 277 - reached destination in 3000.2313023445136m
+DEBUG:root:Create user 351
+DEBUG:root:Switch to BS2 user331 in 2505.6475989367195m
+DEBUG:root:Switch to BS2 user321 in 2949.3174606394186m
+DEBUG:root:Delete user 325 - reached destination in 3000.50144574148m
+DEBUG:root:Create user 352
+DEBUG:root:Delete user 329 - reached destination in 3000.451246154308m
+DEBUG:root:Create user 353
+DEBUG:root:Delete user 268 - reached destination in 3000.213246150842m
+DEBUG:root:Create user 354
+DEBUG:root:Delete user 321 - reached destination in 3000.0981866171587m
+DEBUG:root:Create user 355
+DEBUG:root:Delete user 295 - reached destination in 3000.1050092275955m
+DEBUG:root:Create user 356
+DEBUG:root:Switch to BS2 user309 in 2701.384412517229m
+DEBUG:root:Delete user 317 - reached destination in 3000.426966450184m
+DEBUG:root:Create user 357
+DEBUG:root:Switch to BS2 user334 in 2906.971168835249m
+DEBUG:root:Switch to BS2 user319 in 2336.4788667082003m
+DEBUG:root:Switch to BS2 user338 in 2807.2174500440997m
+DEBUG:root:Delete user 304 - reached destination in 3000.2184566975934m
+DEBUG:root:Create user 358
+DEBUG:root:Switch to BS2 user324 in 2177.9665639531254m
+DEBUG:root:Delete user 259 - reached destination in 3000.0435163870047m
+DEBUG:root:Create user 359
+DEBUG:root:Delete user 334 - reached destination in 3000.082277422898m
+DEBUG:root:Create user 360
+DEBUG:root:Delete user 330 - reached destination in 3000.060868538034m
+DEBUG:root:Create user 361
+DEBUG:root:Switch to BS2 user339 in 2735.3976852850883m
+DEBUG:root:Delete user 313 - reached destination in 3000.332341271392m
+DEBUG:root:Create user 362
+DEBUG:root:Switch to BS2 user348 in 2514.6032257539446m
+DEBUG:root:Delete user 338 - reached destination in 3000.2051171056164m
+DEBUG:root:Create user 363
+DEBUG:root:Delete user 163 - reached destination in 3000.0450440039576m
+DEBUG:root:Create user 364
+DEBUG:root:Switch to BS2 user352 in 2452.5527435024255m
+DEBUG:root:Delete user 326 - reached destination in 3000.310673931714m
+DEBUG:root:Create user 365
+DEBUG:root:Switch to BS2 user323 in 2571.8565103749056m
+DEBUG:root:Delete user 218 - reached destination in 3000.142730661323m
+DEBUG:root:Create user 366
+DEBUG:root:Delete user 322 - reached destination in 3000.464727817386m
+DEBUG:root:Create user 367
+DEBUG:root:Delete user 343 - reached destination in 3000.663883855997m
+DEBUG:root:Create user 368
+DEBUG:root:Switch to BS2 user340 in 2730.767083669702m
+DEBUG:root:Delete user 339 - reached destination in 3000.391733927263m
+DEBUG:root:Create user 369
+DEBUG:root:Delete user 335 - reached destination in 3000.436204644953m
+DEBUG:root:Create user 370
+DEBUG:root:Switch to BS2 user353 in 2546.999794713648m
+DEBUG:root:Delete user 250 - reached destination in 3000.0430966326226m
+DEBUG:root:Create user 371
+DEBUG:root:Delete user 331 - reached destination in 3000.3147939877535m
+DEBUG:root:Create user 372
+DEBUG:root:Switch to BS2 user372 in 2003.1416138078282m
+DEBUG:root:Delete user 300 - reached destination in 3000.218823915804m
+DEBUG:root:Create user 373
+DEBUG:root:Delete user 309 - reached destination in 3000.2136868643584m
+DEBUG:root:Create user 374
+DEBUG:root:Delete user 291 - reached destination in 3000.157549427303m
+DEBUG:root:Create user 375
+DEBUG:root:Delete user 348 - reached destination in 3000.3886708656682m
+DEBUG:root:Create user 376
+DEBUG:root:Delete user 318 - reached destination in 3000.0288099307m
+DEBUG:root:Create user 377
+DEBUG:root:Switch to BS2 user377 in 2002.7509446415354m
+DEBUG:root:Delete user 352 - reached destination in 3000.1321545594287m
+DEBUG:root:Create user 378
+DEBUG:root:Delete user 344 - reached destination in 3000.2209468109654m
+DEBUG:root:Create user 379
+DEBUG:root:Switch to BS2 user342 in 2313.8242116971096m
+DEBUG:root:Delete user 340 - reached destination in 3000.244800514092m
+DEBUG:root:Create user 380
+DEBUG:root:Switch to BS2 user367 in 2350.402471032692m
+DEBUG:root:Delete user 327 - reached destination in 3000.280190747484m
+DEBUG:root:Create user 381
+DEBUG:root:Delete user 282 - reached destination in 3000.192030288871m
+DEBUG:root:Create user 382
+DEBUG:root:Delete user 357 - reached destination in 3000.760143155676m
+DEBUG:root:Create user 383
+DEBUG:root:Delete user 361 - reached destination in 3000.801755823863m
+DEBUG:root:Create user 384
+DEBUG:root:Delete user 353 - reached destination in 3000.1004421058797m
+DEBUG:root:Create user 385
+DEBUG:root:Delete user 336 - reached destination in 3000.1626308207415m
+DEBUG:root:Create user 386
+DEBUG:root:Switch to BS2 user386 in 2002.9477401422093m
+DEBUG:root:Switch to BS2 user305 in 2825.9596065738297m
+DEBUG:root:Delete user 349 - reached destination in 3000.615000919729m
+DEBUG:root:Create user 387
+DEBUG:root:Delete user 186 - reached destination in 3000.1014268299546m
+DEBUG:root:Create user 388
+DEBUG:root:Delete user 241 - reached destination in 3000.031427362025m
+DEBUG:root:Create user 389
+DEBUG:root:Delete user 345 - reached destination in 3000.0811038765246m
+DEBUG:root:Create user 390
+DEBUG:root:Delete user 366 - reached destination in 3000.410447876748m
+DEBUG:root:Create user 391
+DEBUG:root:Delete user 362 - reached destination in 3000.352795805236m
+DEBUG:root:Create user 392
+DEBUG:root:Delete user 273 - reached destination in 3000.112646965927m
+DEBUG:root:Create user 393
+DEBUG:root:Delete user 358 - reached destination in 3000.6462420337975m
+DEBUG:root:Create user 394
+DEBUG:root:Switch to BS2 user380 in 2589.6397931644947m
+DEBUG:root:Delete user 354 - reached destination in 3000.280301559231m
+DEBUG:root:Create user 395
+DEBUG:root:Delete user 323 - reached destination in 3000.1993330829623m
+DEBUG:root:Create user 396
+DEBUG:root:Switch to BS2 user264 in 2907.998918902297m
+DEBUG:root:Switch to BS2 user368 in 2633.939816762074m
+DEBUG:root:Switch to BS2 user387 in 2161.9016385957652m
+DEBUG:root:Delete user 314 - reached destination in 3000.092502831587m
+DEBUG:root:Create user 397
+DEBUG:root:Delete user 332 - reached destination in 3000.10340020242m
+DEBUG:root:Create user 398
+DEBUG:root:Delete user 371 - reached destination in 3000.2747272558345m
+DEBUG:root:Create user 399
+DEBUG:root:Switch to BS2 user399 in 2003.732000309849m
+DEBUG:root:Delete user 341 - reached destination in 3000.3406882254844m
+DEBUG:root:Create user 400
+DEBUG:root:Switch to BS2 user375 in 2994.1632394608637m
+DEBUG:root:Delete user 375 - reached destination in 3000.7533366921384m
+DEBUG:root:Create user 401
+DEBUG:root:Delete user 367 - reached destination in 3000.34253827075m
+DEBUG:root:Create user 402
+DEBUG:root:Delete user 363 - reached destination in 3000.0602971092208m
+DEBUG:root:Create user 403
+DEBUG:root:Switch to BS2 user389 in 2537.0872984496955m
+DEBUG:root:Delete user 305 - reached destination in 3000.0935407232882m
+DEBUG:root:Create user 404
+DEBUG:root:Delete user 350 - reached destination in 3000.3384185953087m
+DEBUG:root:Create user 405
+DEBUG:root:Delete user 380 - reached destination in 3000.5747002601015m
+DEBUG:root:Create user 406
+DEBUG:root:Delete user 376 - reached destination in 3000.1388469397034m
+DEBUG:root:Create user 407
+DEBUG:root:Delete user 384 - reached destination in 3000.417592980364m
+DEBUG:root:Create user 408
+DEBUG:root:Switch to BS2 user398 in 2424.854099708372m
+DEBUG:root:Delete user 359 - reached destination in 3000.4608848960625m
+DEBUG:root:Create user 409
+DEBUG:root:Delete user 372 - reached destination in 3000.2898364121565m
+DEBUG:root:Create user 410
+DEBUG:root:Delete user 264 - reached destination in 3000.046919272125m
+DEBUG:root:Create user 411
+DEBUG:root:Switch to BS2 user392 in 2264.94565253803m
+DEBUG:root:Delete user 209 - reached destination in 3000.106385358982m
+DEBUG:root:Create user 412
+DEBUG:root:Delete user 385 - reached destination in 3000.312688949187m
+DEBUG:root:Create user 413
+DEBUG:root:Delete user 368 - reached destination in 3000.2048035617695m
+DEBUG:root:Create user 414
+DEBUG:root:Switch to BS2 user394 in 2748.6767768673344m
+DEBUG:root:Delete user 296 - reached destination in 3000.1646662889007m
+DEBUG:root:Create user 415
+DEBUG:root:Delete user 389 - reached destination in 3000.155843163477m
+DEBUG:root:Create user 416
+DEBUG:root:Delete user 381 - reached destination in 3000.18742882692m
+DEBUG:root:Create user 417
+DEBUG:root:Switch to BS2 user391 in 2594.774708998428m
+DEBUG:root:Delete user 377 - reached destination in 3000.243471662664m
+DEBUG:root:Create user 418
+DEBUG:root:Switch to BS2 user408 in 2379.5216752965066m
+DEBUG:root:Delete user 355 - reached destination in 3000.3412476650155m
+DEBUG:root:Create user 419
+DEBUG:root:Delete user 346 - reached destination in 3000.1728298459884m
+DEBUG:root:Create user 420
+DEBUG:root:Switch to BS2 user417 in 2144.3956958918875m
+DEBUG:root:Delete user 337 - reached destination in 3000.018106363695m
+DEBUG:root:Create user 421
+DEBUG:root:Switch to BS2 user364 in 2975.475499052336m
+DEBUG:root:Delete user 394 - reached destination in 3000.1596149119787m
+DEBUG:root:Create user 422
+DEBUG:root:Delete user 398 - reached destination in 3000.432491996226m
+DEBUG:root:Create user 423
+DEBUG:root:Delete user 364 - reached destination in 3000.2557234234237m
+DEBUG:root:Create user 424
+DEBUG:root:Switch to BS2 user404 in 2562.0118983461507m
+DEBUG:root:Delete user 386 - reached destination in 3000.463004265483m
+DEBUG:root:Create user 425
+DEBUG:root:Delete user 390 - reached destination in 3000.4629609965127m
+DEBUG:root:Create user 426
+DEBUG:root:Switch to BS2 user369 in 2753.6505200957686m
+DEBUG:root:Delete user 328 - reached destination in 3000.218095577703m
+DEBUG:root:Create user 427
+DEBUG:root:Delete user 373 - reached destination in 3000.393140241067m
+DEBUG:root:Create user 428
+DEBUG:root:Switch to BS2 user396 in 2573.2299188267375m
+DEBUG:root:Delete user 403 - reached destination in 3000.388088630505m
+DEBUG:root:Create user 429
+DEBUG:root:Switch to BS2 user388 in 2347.411955482305m
+DEBUG:root:Delete user 399 - reached destination in 3000.176083039505m
+DEBUG:root:Create user 430
+DEBUG:root:Delete user 407 - reached destination in 3000.0322614028432m
+DEBUG:root:Create user 431
+DEBUG:root:Switch to BS2 user415 in 2211.336359422481m
+DEBUG:root:Delete user 382 - reached destination in 3000.2847464082906m
+DEBUG:root:Create user 432
+DEBUG:root:Switch to BS2 user360 in 2851.2544648366716m
+DEBUG:root:Switch to BS2 user432 in 2002.9535838123195m
+DEBUG:root:Switch to BS2 user409 in 2587.771865870864m
+DEBUG:root:Switch to BS2 user395 in 2974.1771421649064m
+DEBUG:root:Delete user 232 - reached destination in 3000.0599195910404m
+DEBUG:root:Create user 433
+DEBUG:root:Delete user 395 - reached destination in 3000.5912415651164m
+DEBUG:root:Create user 434
+DEBUG:root:Switch to BS2 user383 in 2600.9551859347534m
+DEBUG:root:Delete user 287 - reached destination in 3000.034361565696m
+DEBUG:root:Create user 435
+DEBUG:root:Switch to BS2 user427 in 2274.8975948418542m
+DEBUG:root:Delete user 319 - reached destination in 3000.002613207439m
+DEBUG:root:Create user 436
+DEBUG:root:Delete user 391 - reached destination in 3000.3261657789703m
+DEBUG:root:Create user 437
+DEBUG:root:Delete user 408 - reached destination in 3000.2714133591157m
+DEBUG:root:Create user 438
+DEBUG:root:Delete user 412 - reached destination in 3000.803321811682m
+DEBUG:root:Create user 439
+DEBUG:root:Switch to BS2 user422 in 2529.611960147384m
+DEBUG:root:Delete user 404 - reached destination in 3000.3945443807097m
+DEBUG:root:Create user 440
+DEBUG:root:Switch to BS2 user440 in 2004.1285131462519m
+DEBUG:root:Switch to BS2 user419 in 2383.1025556504765m
+DEBUG:root:Delete user 400 - reached destination in 3000.204304298053m
+DEBUG:root:Create user 441
+DEBUG:root:Delete user 369 - reached destination in 3000.1393142048823m
+DEBUG:root:Create user 442
+DEBUG:root:Delete user 378 - reached destination in 3000.2198580298677m
+DEBUG:root:Create user 443
+DEBUG:root:Switch to BS2 user443 in 2001.1941116464766m
+DEBUG:root:Switch to BS2 user426 in 2720.9741202200375m
+DEBUG:root:Switch to BS2 user410 in 2571.244150504135m
+DEBUG:root:Delete user 360 - reached destination in 3000.210203985013m
+DEBUG:root:Create user 444
+DEBUG:root:Delete user 417 - reached destination in 3000.043333834101m
+DEBUG:root:Create user 445
+DEBUG:root:Switch to BS2 user445 in 2003.737843979959m
+DEBUG:root:Delete user 421 - reached destination in 3000.1104785662915m
+DEBUG:root:Create user 446
+DEBUG:root:Delete user 413 - reached destination in 3000.5822149882533m
+DEBUG:root:Create user 447
+DEBUG:root:Delete user 387 - reached destination in 3000.1660836852748m
+DEBUG:root:Create user 448
+DEBUG:root:Delete user 409 - reached destination in 3000.2744102922707m
+DEBUG:root:Create user 449
+DEBUG:root:Switch to BS2 user379 in 2483.481471601907m
+DEBUG:root:Switch to BS2 user351 in 2985.195931971831m
+DEBUG:root:Switch to BS2 user423 in 2652.256114535586m
+DEBUG:root:Delete user 351 - reached destination in 3000.094478230646m
+DEBUG:root:Create user 450
+DEBUG:root:Delete user 396 - reached destination in 3000.0110753228346m
+DEBUG:root:Create user 451
+DEBUG:root:Delete user 426 - reached destination in 3000.2003082668866m
+DEBUG:root:Create user 452
+DEBUG:root:Switch to BS2 user425 in 2191.3244341859627m
+DEBUG:root:Switch to BS2 user428 in 2515.3407498580746m
+DEBUG:root:Delete user 422 - reached destination in 3000.212150405285m
+DEBUG:root:Create user 453
+DEBUG:root:Delete user 255 - reached destination in 3000.0786839859434m
+DEBUG:root:Create user 454
+DEBUG:root:Switch to BS2 user441 in 2325.1191451008226m
+DEBUG:root:Switch to BS2 user436 in 2526.9080137176243m
+DEBUG:root:Delete user 430 - reached destination in 3000.627731387068m
+DEBUG:root:Create user 455
+DEBUG:root:Delete user 405 - reached destination in 3000.1051017184527m
+DEBUG:root:Create user 456
+DEBUG:root:Delete user 418 - reached destination in 3000.261986488467m
+DEBUG:root:Create user 457
+DEBUG:root:Delete user 310 - reached destination in 3000.150936536709m
+DEBUG:root:Create user 458
+DEBUG:root:Switch to BS2 user458 in 2004.5221041475986m
+DEBUG:root:Delete user 342 - reached destination in 3000.018986142741m
+DEBUG:root:Create user 459
+DEBUG:matplotlib.pyplot:Loaded backend tkagg version 8.6.
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sBIT' 41 4
+DEBUG:PIL.PngImagePlugin:b'sBIT' 41 4 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 57 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 78 1189
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sBIT' 41 4
+DEBUG:PIL.PngImagePlugin:b'sBIT' 41 4 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 57 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 78 2994
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sBIT' 41 4
+DEBUG:PIL.PngImagePlugin:b'sBIT' 41 4 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 57 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 78 374
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sBIT' 41 4
+DEBUG:PIL.PngImagePlugin:b'sBIT' 41 4 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 57 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 78 286
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sBIT' 41 4
+DEBUG:PIL.PngImagePlugin:b'sBIT' 41 4 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 57 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 78 263
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sBIT' 41 4
+DEBUG:PIL.PngImagePlugin:b'sBIT' 41 4 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 57 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 78 387
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sBIT' 41 4
+DEBUG:PIL.PngImagePlugin:b'sBIT' 41 4 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 57 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 78 436
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sBIT' 41 4
+DEBUG:PIL.PngImagePlugin:b'sBIT' 41 4 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 57 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 78 351
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sBIT' 41 4
+DEBUG:PIL.PngImagePlugin:b'sBIT' 41 4 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 57 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 78 364
+DEBUG:matplotlib.font_manager:findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniBolIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizThreeSymReg.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmex10.ttf', name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniBol.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmsy10.ttf', name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizOneSymReg.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmmi10.ttf', name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmss10.ttf', name='cmss10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneral.ttf', name='STIXGeneral', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralItalic.ttf', name='STIXGeneral', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFourSymBol.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralBolIta.ttf', name='STIXGeneral', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmb10.ttf', name='cmb10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerifDisplay.ttf', name='DejaVu Serif Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmtt10.ttf', name='cmtt10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFourSymReg.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizTwoSymBol.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUni.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizThreeSymBol.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansDisplay.ttf', name='DejaVu Sans Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizOneSymBol.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFiveSymReg.ttf', name='STIXSizeFiveSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralBol.ttf', name='STIXGeneral', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizTwoSymReg.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmr10.ttf', name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candarab.ttf', name='Candara', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibrib.ttf', name='Calibri', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\palai.ttf', name='Palatino Linotype', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\palabi.ttf', name='Palatino Linotype', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\palab.ttf', name='Palatino Linotype', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeui.ttf', name='Segoe UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuiz.ttf', name='Segoe UI', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\verdanab.ttf', name='Verdana', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 3.9713636363636367
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\wingding.ttf', name='Wingdings', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SegoeIcons.ttf', name='Segoe Fluent Icons', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\LeelawUI.ttf', name='Leelawadee UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\pala.ttf', name='Palatino Linotype', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\monbaiti.ttf', name='Mongolian Baiti', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguiemj.ttf', name='Segoe UI Emoji', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mingliub.ttc', name='MingLiU-ExtB', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoescb.ttf', name='Segoe Script', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\times.ttf', name='Times New Roman', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Gabriola.ttf', name='Gabriola', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguili.ttf', name='Segoe UI', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhl.ttc', name='Microsoft JhengHei', style='normal', variant='normal', weight=290, stretch='normal', size='scalable')) = 10.1545
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segmdl2.ttf', name='Segoe MDL2 Assets', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\l_10646.ttf', name='Lucida Sans Unicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbelli.ttf', name='Corbel', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ariblk.ttf', name='Arial', style='normal', variant='normal', weight=900, stretch='normal', size='scalable')) = 6.888636363636364
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothL.ttc', name='Yu Gothic', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\tahoma.ttf', name='Tahoma', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\gadugib.ttf', name='Gadugi', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\verdanaz.ttf', name='Verdana', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 4.971363636363637
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\couri.ttf', name='Courier New', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhl.ttc', name='Microsoft YaHei', style='normal', variant='normal', weight=290, stretch='normal', size='scalable')) = 10.1545
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhbd.ttc', name='Microsoft JhengHei', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\bahnschrift.ttf', name='Bahnschrift', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\micross.ttf', name='Microsoft Sans Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\comic.ttf', name='Comic Sans MS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbell.ttf', name='Corbel', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\georgiaz.ttf', name='Georgia', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\gadugi.ttf', name='Gadugi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\constanz.ttf', name='Constantia', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\simsun.ttc', name='SimSun', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mmrtext.ttf', name='Myanmar Text', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\constani.ttf', name='Constantia', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\lucon.ttf', name='Lucida Console', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\phagspa.ttf', name='Microsoft PhagsPa', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\timesbi.ttf', name='Times New Roman', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\courbi.ttf', name='Courier New', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisli.ttf', name='Segoe UI', style='italic', variant='normal', weight=350, stretch='normal', size='scalable')) = 11.0975
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\georgiai.ttf', name='Georgia', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\taile.ttf', name='Microsoft Tai Le', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ariali.ttf', name='Arial', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 7.413636363636363
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candaral.ttf', name='Candara', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\unispace bd.ttf', name='Unispace', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisym.ttf', name='Segoe UI Symbol', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cambriab.ttf', name='Cambria', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mmrtextb.ttf', name='Myanmar Text', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ebrimabd.ttf', name='Ebrima', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msgothic.ttc', name='MS Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\arialbi.ttf', name='Arial', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 7.698636363636363
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\georgiab.ttf', name='Georgia', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\malgunsl.ttf', name='Malgun Gothic', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothM.ttc', name='Yu Gothic', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyh.ttc', name='Microsoft YaHei', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ebrima.ttf', name='Ebrima', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothB.ttc', name='Yu Gothic', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cour.ttf', name='Courier New', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\timesi.ttf', name='Times New Roman', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\framdit.ttf', name='Franklin Gothic Medium', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuil.ttf', name='Segoe UI', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SegUIVar.ttf', name='Segoe UI Variable', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\consola.ttf', name='Consolas', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuii.ttf', name='Segoe UI', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candarai.ttf', name='Candara', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\tahomabd.ttf', name='Tahoma', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\verdana.ttf', name='Verdana', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 3.6863636363636365
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mvboli.ttf', name='MV Boli', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SitkaVF-Italic.ttf', name='Sitka', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\trebuc.ttf', name='Trebuchet MS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\javatext.ttf', name='Javanese Text', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoepr.ttf', name='Segoe Print', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\arialbd.ttf', name='Arial', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 6.698636363636363
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhbd.ttc', name='Microsoft YaHei', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\himalaya.ttf', name='Microsoft Himalaya', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\symbol.ttf', name='Symbol', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbel.ttf', name='Corbel', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\phagspab.ttf', name='Microsoft PhagsPa', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SansSerifCollection.ttf', name='Sans Serif Collection', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibriz.ttf', name='Calibri', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibrili.ttf', name='Calibri', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cambria.ttc', name='Cambria', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\georgia.ttf', name='Georgia', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\sylfaen.ttf', name='Sylfaen', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbelb.ttf', name='Corbel', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibrii.ttf', name='Calibri', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuisl.ttf', name='Segoe UI', style='normal', variant='normal', weight=350, stretch='normal', size='scalable')) = 10.0975
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\holomdl2.ttf', name='HoloLens MDL2 Assets', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\taileb.ttf', name='Microsoft Tai Le', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothR.ttc', name='Yu Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\consolai.ttf', name='Consolas', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\trebucbi.ttf', name='Trebuchet MS', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyi.ttf', name='Microsoft Yi Baiti', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttf', name='Nirmala UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Inkfree.ttf', name='Ink Free', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ntailu.ttf', name='Microsoft New Tai Lue', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\simsunb.ttf', name='SimSun-ExtB', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\framd.ttf', name='Franklin Gothic Medium', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguibli.ttf', name='Segoe UI', style='italic', variant='normal', weight=900, stretch='normal', size='scalable')) = 11.525
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\impact.ttf', name='Impact', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\comicz.ttf', name='Comic Sans MS', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\malgun.ttf', name='Malgun Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candarali.ttf', name='Candara', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\constan.ttf', name='Constantia', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\webdings.ttf', name='Webdings', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ntailub.ttf', name='Microsoft New Tai Lue', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguihis.ttf', name='Segoe UI Historic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\timesbd.ttf', name='Times New Roman', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeprb.ttf', name='Segoe Print', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\arial.ttf', name='Arial', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 6.413636363636363
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\NirmalaS.ttf', name='Nirmala UI', style='normal', variant='normal', weight=350, stretch='normal', size='scalable')) = 10.0975
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\LeelaUIb.ttf', name='Leelawadee UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjh.ttc', name='Microsoft JhengHei', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisbi.ttf', name='Segoe UI', style='italic', variant='normal', weight=600, stretch='normal', size='scalable')) = 11.24
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\malgunbd.ttf', name='Malgun Gothic', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\consolab.ttf', name='Consolas', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cambriai.ttf', name='Cambria', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibri.ttf', name='Calibri', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cambriaz.ttf', name='Cambria', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\comicbd.ttf', name='Comic Sans MS', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibril.ttf', name='Calibri', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\NirmalaB.ttf', name='Nirmala UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\constanb.ttf', name='Constantia', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\trebucit.ttf', name='Trebuchet MS', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SitkaVF.ttf', name='Sitka', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbeli.ttf', name='Corbel', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguibl.ttf', name='Segoe UI', style='normal', variant='normal', weight=900, stretch='normal', size='scalable')) = 10.525
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\consolaz.ttf', name='Consolas', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\trebucbd.ttf', name='Trebuchet MS', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\comici.ttf', name='Comic Sans MS', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\LeelUIsl.ttf', name='Leelawadee UI', style='normal', variant='normal', weight=350, stretch='normal', size='scalable')) = 10.0975
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candara.ttf', name='Candara', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candaraz.ttf', name='Candara', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\courbd.ttf', name='Courier New', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbelz.ttf', name='Corbel', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuib.ttf', name='Segoe UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\verdanai.ttf', name='Verdana', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 4.6863636363636365
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisb.ttf', name='Segoe UI', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoesc.ttf', name='Segoe Script', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('C:\\Users\\kamil_o4lgsis\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sBIT' 41 4
+DEBUG:PIL.PngImagePlugin:b'sBIT' 41 4 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 57 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 78 1189
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sBIT' 41 4
+DEBUG:PIL.PngImagePlugin:b'sBIT' 41 4 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 57 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 78 2994
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sBIT' 41 4
+DEBUG:PIL.PngImagePlugin:b'sBIT' 41 4 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 57 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 78 374
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sBIT' 41 4
+DEBUG:PIL.PngImagePlugin:b'sBIT' 41 4 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 57 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 78 286
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sBIT' 41 4
+DEBUG:PIL.PngImagePlugin:b'sBIT' 41 4 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 57 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 78 263
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sBIT' 41 4
+DEBUG:PIL.PngImagePlugin:b'sBIT' 41 4 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 57 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 78 387
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sBIT' 41 4
+DEBUG:PIL.PngImagePlugin:b'sBIT' 41 4 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 57 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 78 436
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sBIT' 41 4
+DEBUG:PIL.PngImagePlugin:b'sBIT' 41 4 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 57 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 78 351
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sBIT' 41 4
+DEBUG:PIL.PngImagePlugin:b'sBIT' 41 4 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 57 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 78 364

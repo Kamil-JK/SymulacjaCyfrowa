@@ -2,9 +2,9 @@ import math
 import logging
 
 logging.basicConfig(filename='logs.txt', level=logging.DEBUG, filemode='w')
-consoleLogger=logging.StreamHandler()
-consoleLogger.setFormatter(logging.Formatter(logging.BASIC_FORMAT))
-logging.getLogger().addHandler(consoleLogger)
+# consoleLogger=logging.StreamHandler()
+# consoleLogger.setFormatter(logging.Formatter(logging.BASIC_FORMAT))
+# logging.getLogger().addHandler(consoleLogger)
 
 class User:
 
@@ -22,6 +22,7 @@ class User:
         self.currentBS = 1
         self.ttt_1_2 = 0
         self.ttt_2_1 = 0
+        logging.debug("Create user " + str(self.userID))
 
     def getUserID(self):
         return self.userID
@@ -36,7 +37,7 @@ class User:
             return False
 
         elif self.currentBS == 2:
-            if powerBS2 - powerBS1 >= self.delta:
+            if powerBS1 - powerBS2 >= self.delta:
                 logging.debug("Delete user" + str(self.userID)+ " - delta condition in " + str(self.x) + "m")
                 return False
             elif powerBS1 - powerBS2 >= self.alfa:
@@ -51,7 +52,7 @@ class User:
                 self.ttt_2_1 = 0          
 
         elif self.currentBS == 1:
-            if powerBS1 - powerBS2 >= self.delta:
+            if powerBS2 - powerBS1 >= self.delta:
                 logging.debug("Delete user" + str(self.userID)+ " - delta condition in " + str(self.x) + "m")
                 return False      
             elif powerBS2 - powerBS1 >= self.alfa:
@@ -59,6 +60,7 @@ class User:
                 self.ttt_2_1 = self.ttt_2_1 + t            
                 if(self.ttt_2_1 == 100):
                     logging.debug("Switch to BS2 user" + str(self.userID)+ " in " + str(self.x) + "m")
+                    print("Switch user" + str(self.userID)+" "+ str(self.x))
                     self.currentBS = 2
                     self.ttt_2_1 = 0
             else:

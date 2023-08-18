@@ -2,10 +2,9 @@ import queue
 from User import User
 
 class Network:
-
-    userList = []
     
     def __init__(self, x, l, v, s1, s2, t, n, ttt, alfa, delta):
+        self.userList = []
         self.x = x
         self.l = l 
         self.v = v
@@ -29,10 +28,12 @@ class Network:
         self.userList.append(User(v, s1, s2, self.x, self.l, self.newUserNumber, self.ttt, self.alfa, self.delta))
         if isFromBuffer:
             self.userBuffer = self.userBuffer - 1
+            # print("from buffer user, buffer size = " + str(self.userBuffer))
         return self.newUserNumber
         
     def userToBuffer(self):
         self.userBuffer = self.userBuffer + 1
+        # print("user to buffer, buffer size = " + str(self.userBuffer))
         return False
             
     def reportUser(self, userID):

@@ -3,6 +3,9 @@ from Network import Network
 from sortedcontainers import SortedList
 from RandomNumberGenerator import RandomNumberGenerator 
 
+import matplotlib.pyplot as plt
+import numpy as np
+
 # M2 Planowanie zdarzeń
 # A1 Optymalizacja parametru alfa
 #
@@ -22,28 +25,32 @@ from RandomNumberGenerator import RandomNumberGenerator
 
 class Simulator:
 
-  eventList = SortedList(key=lambda x: -x.getSimulationTime())
-  l = 5000
-  x = 2000
-  t = 20
-  delta = 20
-  ttt = 100
-  n = 60
-  t = 20
-  tau = []
-  v = []
-  s1 = []
-  s2 = []
-  usersServed = 0
-  maxUsersNumber = 1000
-  eventNumber = 0
+  def __init__(self, simulationNumber, _lambda, alfa, maxUsersNumber):
 
-  def __init__(self, simulationNumber, _lambda, alfa):
+    self.eventList = SortedList(key=lambda x: -x.getSimulationTime())
+    self.l = 5000
+    self.x = 2000
+    self.t = 20
+    self.delta = 20
+    self.ttt = 100
+    self.n = 60
+    self.t = 20
+    self.tau = []
+    self.v = []
+    self.s1 = []
+    self.s2 = []
+    self.usersServed = 0
+    self.maxUsersNumber = maxUsersNumber
+    self.eventNumber = 0
+
+    self.usersServedResult = []
+    self.usersInSystem = []
+
     self.generator = RandomNumberGenerator(_lambda)
 
-    seed = simulationNumber * 106000000
+    seed = (simulationNumber + 1) * 100000 * maxUsersNumber
 
-    for i in range(1060):
+    for i in range(self.maxUsersNumber + self.n):
       self.tau.append(self.generator.randExp(seed))
       seed = seed + 50000
       self.v.append(0.005 + 0.045 * self.generator.rand(seed)) # [5,50]m/s
@@ -56,19 +63,25 @@ class Simulator:
   def mainLoop(self):
 
     clock = 0
-    self.eventList.add(GenerateEvent(self.network, self.eventList, self.tau[0], self.t, self.maxUsersNumber, self.eventNumber, self.tau))
-    
-    while self.usersServed <= 100 and self.eventList.__sizeof__() > 0:
+    x = []
+    y = []
+    self.eventList.add(GenerateEvent(self.network, self.eventList, self.tau[0], self.t, self.maxUsersNumber + self.n, self.eventNumber, self.tau, self.n))
+    while self.usersServed < self.maxUsersNumber:
 
       event = self.eventList.pop()
-      clock = event.getSimulationTime()
+      clock = event.getSimulationTime()/1000
+      y.append(self.network.getUserListSize() + self.network.getBufferSize())
+      x.append(clock)
       if event.execute():
         self.usersServed = self.usersServed + 1
+        self.usersServedResult.append(self.usersServed)
+        self.usersInSystem.append(self.network.getUserListSize())
 
-
-      # print("Event list: ")
-      # for event in self.eventList:
-      #   print(event.eventType())
-      # print("------Clock: " + str(clock) + " User length: " + str(len(self.network.userList)))
+       
+    plt.xlabel("Czas symulacji [s]")
+    plt.ylabel("Liczba użytkowników w systemie i kolejce")
+    plt.plot(x, y)
+    plt.show()
+      
 
                   
