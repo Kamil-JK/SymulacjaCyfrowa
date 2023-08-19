@@ -1,6 +1,5 @@
 from Event import Event
 
-
 class GenerateEvent(Event):    
 
     def __init__(self, network, eventList, simulationTime, t, maxUsersNumber, eventNumber, tau, n):
@@ -36,10 +35,10 @@ class ReportEvent(Event):
     def execute(self):
         #print("Report event executing, userID: " + str(self.userID) + ", time: " + str(self.simulationTime))
         reportTime = self.t  + self.simulationTime
-        report = self.network.reportUser(self.userID)
-        if report:                 # if user in system
+        userIsActive = self.network.reportUser(self.userID)
+        if userIsActive:                 # if user in system
             self.eventList.add(ReportEvent(self.network, self.eventList, reportTime, self.t, self.maxUsersNumber, self.userID, self.n))
-        elif report == False:      # if user deleted
+        elif userIsActive == False:      # if user deleted
             self.network.destroyUser(self.userID)
             if self.network.getBufferSize() >= 1 and self.network.getUserListSize() < self.n and self.network.getNewUserNumber() + 1 <= self.maxUsersNumber:
                 newUserID = self.network.createUser(True)

@@ -8,9 +8,9 @@ system('cls')
 
 alfa = 3
 #_lambda = [0.0010, 0.0011, 0.0012, 0.0013, 0.0014]
-_lambda = [0.0014]
+_lambda = [1.5]
 simulations = 1 # 10
-maxUsersNumber = 400
+maxUsersNumber = 300
 # x = np.zeros(simulations)
 # y = np.zeros(simulations)
 
@@ -24,7 +24,7 @@ for k in range(len(_lambda)):
         simulator = Simulator(simulationNumber * (k + 1), _lambda[k], alfa, maxUsersNumber)
         simulator.mainLoop()
         #print(simulator.usersInSystem)
-        print("sim" + str(k*len(_lambda) + simulationNumber) + "over")
+        print("sim" + str(k*simulations + simulationNumber) + " over")
         usersInSystem.append(simulator.usersInSystem)
 
     # print(usersInSystem[0]) 
@@ -48,7 +48,7 @@ for k in range(len(_lambda)):
 plt.xlabel("Liczba obsłużonych użytkowników")
 plt.ylabel("Średnia liczba użytkowników w systemie")
 plt.legend(title = "Lambda")
-#plt.show() 
+plt.show() 
 
 
 

@@ -22,10 +22,14 @@ class User:
         self.currentBS = 1
         self.ttt_1_2 = 0
         self.ttt_2_1 = 0
+        self.active = True
         logging.debug("Create user " + str(self.userID))
 
     def getUserID(self):
         return self.userID
+    
+    def isActive(self):
+        return self.active
 
     def report(self, t):
         self.x = self.x + self.v * t
@@ -34,16 +38,16 @@ class User:
 
         if self.x >= self.l - self.x0:
             logging.debug("Delete user " + str(self.userID)+ " - reached destination in " + str(self.x) + "m")
-            return False
+            self.active = False
 
         elif self.currentBS == 2:
             if powerBS1 - powerBS2 >= self.delta:
                 logging.debug("Delete user" + str(self.userID)+ " - delta condition in " + str(self.x) + "m")
-                return False
+                self.active = False
             elif powerBS1 - powerBS2 >= self.alfa:
                 self.ttt_1_2 = 0
                 self.ttt_2_1 = self.ttt_2_1 + t            
-                if(self.ttt_2_1 == 100):
+                if(self.ttt_2_1 == self.ttt):
                     logging.debug("Switch to BS1")
                     self.currentBS = 1
                     self.ttt_1_2 = 0
@@ -54,16 +58,15 @@ class User:
         elif self.currentBS == 1:
             if powerBS2 - powerBS1 >= self.delta:
                 logging.debug("Delete user" + str(self.userID)+ " - delta condition in " + str(self.x) + "m")
-                return False      
+                self.active = False      
             elif powerBS2 - powerBS1 >= self.alfa:
                 self.ttt_1_2 = 0
                 self.ttt_2_1 = self.ttt_2_1 + t            
-                if(self.ttt_2_1 == 100):
+                if(self.ttt_2_1 == self.ttt):
                     logging.debug("Switch to BS2 user" + str(self.userID)+ " in " + str(self.x) + "m")
-                    print("Switch user" + str(self.userID)+" "+ str(self.x))
+                    # print("Switch user" + str(self.userID)+" "+ str(self.x))
                     self.currentBS = 2
                     self.ttt_2_1 = 0
             else:
                 self.ttt_1_2 = 0
                 self.ttt_2_1 = 0
-        return True

@@ -20,18 +20,22 @@ class Network:
         self.servedUsers = 0
 
     def createUser(self, isFromBuffer):
-
         self.newUserNumber = self.newUserNumber + 1
+        
         v  = self.v[self.newUserNumber]
         s1 = self.s1[self.newUserNumber]
         s2 = self.s2[self.newUserNumber]
         self.userList.append(User(v, s1, s2, self.x, self.l, self.newUserNumber, self.ttt, self.alfa, self.delta))
         if isFromBuffer:
             self.userBuffer = self.userBuffer - 1
-            # print("from buffer user, buffer size = " + str(self.userBuffer))
+        #     print("from buffer user, buffer size = " + str(self.userBuffer))
+        #     print("create from buffer " + str(self.newUserNumber))
+        # else:
+        #     print("create " + str(self.newUserNumber))
         return self.newUserNumber
         
     def userToBuffer(self):
+        # print("to buffer ")
         self.userBuffer = self.userBuffer + 1
         # print("user to buffer, buffer size = " + str(self.userBuffer))
         return False
@@ -40,13 +44,17 @@ class Network:
         #Report user with userID
         for i in range(len(self.userList)):
             if self.userList[i].userID == userID:
-                return self.userList[i].report(self.t)
+                self.userList[i].report(self.t)
+                return self.userList[i].isActive()
     
     def destroyUser(self, userID):
-        for i in range(len(self.userList) - 1):
+        for i in range(len(self.userList)):# - 1):
             if self.userList[i].userID == userID:
-                self.userList.pop(i)
+                #self.userList.pop(i)
+                user = self.userList.pop(i)
                 self.servedUsers = self.servedUsers + 1   
+                # print("delete " + str(user.getUserID()))
+                break
     
     def getUserListSize(self):
         return len(self.userList)
@@ -59,6 +67,7 @@ class Network:
     
     def getNewUserNumber(self):
         return self.newUserNumber
+    
 
 
 

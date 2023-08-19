@@ -30,11 +30,10 @@ class Simulator:
     self.eventList = SortedList(key=lambda x: -x.getSimulationTime())
     self.l = 5000
     self.x = 2000
-    self.t = 20
     self.delta = 20
-    self.ttt = 100
-    self.n = 60
-    self.t = 20
+    self.ttt = 0.1
+    self.n = 160
+    self.t = 0.02
     self.tau = []
     self.v = []
     self.s1 = []
@@ -53,7 +52,7 @@ class Simulator:
     for i in range(self.maxUsersNumber + self.n):
       self.tau.append(self.generator.randExp(seed))
       seed = seed + 50000
-      self.v.append(0.005 + 0.045 * self.generator.rand(seed)) # [5,50]m/s
+      self.v.append(5 + 45 * self.generator.rand(seed)) # [5,50]m/s
       seed = seed + 50000
       self.s1.append(self.generator.randGauss(0, 4))
       self.s2.append(self.generator.randGauss(0, 4))
@@ -62,26 +61,34 @@ class Simulator:
 
   def mainLoop(self):
 
-    clock = 0
-    x = []
-    y = []
+    # clock = 0
+    # x = []
+    # y1 = []
+    # y2 = []
+    # y3 = []
+
     self.eventList.add(GenerateEvent(self.network, self.eventList, self.tau[0], self.t, self.maxUsersNumber + self.n, self.eventNumber, self.tau, self.n))
     while self.usersServed < self.maxUsersNumber:
 
       event = self.eventList.pop()
-      clock = event.getSimulationTime()/1000
-      y.append(self.network.getUserListSize() + self.network.getBufferSize())
-      x.append(clock)
+      # clock = event.getSimulationTime()/1000
+      # y1.append(self.network.getUserListSize())
+      # y2.append(self.network.getBufferSize())
+      # y3.append(self.network.getUserListSize() + self.network.getBufferSize())
+      # x.append(clock)
       if event.execute():
         self.usersServed = self.usersServed + 1
         self.usersServedResult.append(self.usersServed)
-        self.usersInSystem.append(self.network.getUserListSize())
+        self.usersInSystem.append(self.network.getUserListSize() + self.network.getBufferSize())
 
        
-    plt.xlabel("Czas symulacji [s]")
-    plt.ylabel("Liczba użytkowników w systemie i kolejce")
-    plt.plot(x, y)
-    plt.show()
+    # plt.xlabel("Czas symulacji [s]")
+    # plt.ylabel("Liczba użytkowników w systemie i kolejce")
+    # plt.plot(x, y1, label = "system")
+    # plt.plot(x, y2, label = "kolejka")
+    # plt.plot(x, y3, label = "razem")
+    # plt.legend()
+    # plt.show()
       
 
                   
