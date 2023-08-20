@@ -29,13 +29,13 @@ class Network:
         if isFromBuffer:
             self.userBuffer = self.userBuffer - 1
         #     print("from buffer user, buffer size = " + str(self.userBuffer))
-        #     print("create from buffer " + str(self.newUserNumber))
+            # print("create from buffer user " + str(self.newUserNumber) + " and buffer size = " + str(self.userBuffer))
         # else:
-        #     print("create " + str(self.newUserNumber))
+            # print("create " + str(self.newUserNumber))
         return self.newUserNumber
         
     def userToBuffer(self):
-        # print("to buffer ")
+        #print("user to buffer ")
         self.userBuffer = self.userBuffer + 1
         # print("user to buffer, buffer size = " + str(self.userBuffer))
         return False
@@ -53,7 +53,7 @@ class Network:
                 #self.userList.pop(i)
                 user = self.userList.pop(i)
                 self.servedUsers = self.servedUsers + 1   
-                # print("delete " + str(user.getUserID()))
+                # print("delete user " + str(user.getUserID()))
                 break
     
     def getUserListSize(self):

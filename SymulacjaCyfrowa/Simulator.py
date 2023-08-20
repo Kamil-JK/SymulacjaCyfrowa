@@ -2,7 +2,7 @@ from GenerateEvent import GenerateEvent
 from Network import Network 
 from sortedcontainers import SortedList
 from RandomNumberGenerator import RandomNumberGenerator 
-
+from RandomGenerator import RandomGenerator 
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -30,9 +30,10 @@ class Simulator:
     self.eventList = SortedList(key=lambda x: -x.getSimulationTime())
     self.l = 5000
     self.x = 2000
+    # self.delta = 20
     self.delta = 20
     self.ttt = 0.1
-    self.n = 160
+    self.n = 60
     self.t = 0.02
     self.tau = []
     self.v = []
@@ -45,17 +46,51 @@ class Simulator:
     self.usersServedResult = []
     self.usersInSystem = []
 
-    self.generator = RandomNumberGenerator(_lambda)
+    seed = 12345 + (simulationNumber + 1) * 100000
+    self.generator = RandomNumberGenerator(_lambda, seed)
 
-    seed = (simulationNumber + 1) * 100000 * maxUsersNumber
-
-    for i in range(self.maxUsersNumber + self.n):
-      self.tau.append(self.generator.randExp(seed))
-      seed = seed + 50000
-      self.v.append(5 + 45 * self.generator.rand(seed)) # [5,50]m/s
-      seed = seed + 50000
+    for i in range(self.maxUsersNumber + 100): #+100 - z powodu spadku na końcu wykresu
+      self.tau.append(self.generator.randExponential())
+      self.v.append(5 + 45 * self.generator.randUniform()) # [5,50]m/s
       self.s1.append(self.generator.randGauss(0, 4))
       self.s2.append(self.generator.randGauss(0, 4))
+    
+    # for i in range(1, self.maxUsersNumber + self.n):
+    #     generator2 = RandomGenerator(i * 10000, 0.2)
+    #     self.tau.append(generator2.rand())
+    #     generator2 = RandomGenerator(i * 10000, 0.2)
+    #     self.v.append(generator2.randExp())
+    #     generator2 = RandomGenerator(i * 10000, 0.2)
+    #     self.s1.append(generator2.randGauss(0, 4))
+
+
+    # for i in range(self.maxUsersNumber + self.n):
+    #   self.tau.append(self.generator.randExponential())
+    #   seed = seed + 50000
+    #   self.v.append(5 + 45 * self.generator.randUniform()) # [5,50]m/s
+    #   seed = seed + 50000
+    #   self.s1.append(self.generator.randGauss(0, 4))
+    #   self.s2.append(self.generator.randGauss(0, 4))
+
+
+    # plt.figure(1)
+    # plt.hist(self.v, bins=50)
+    # plt.title("Rozkład równomierny")
+    # plt.xlabel("Wartość")
+    # plt.ylabel("Liczba wystąpień")
+
+    # plt.figure(2)
+    # plt.hist(self.tau, bins=50)
+    # plt.title("Rozkład wykładniczy")
+    # plt.xlabel("Wartość")
+    # plt.ylabel("Liczba wystąpień")
+
+    # plt.figure(3)
+    # plt.hist(self.s1, bins=50)
+    # plt.title("Rozkład Gaussa")
+    # plt.xlabel("Wartość")
+    # plt.ylabel("Liczba wystąpień")
+    # plt.show()
 
     self.network = Network(self.x, self.l, self.v, self.s1, self.s2, self.t, self.n, self.ttt, alfa, self.delta)
 
@@ -67,7 +102,7 @@ class Simulator:
     # y2 = []
     # y3 = []
 
-    self.eventList.add(GenerateEvent(self.network, self.eventList, self.tau[0], self.t, self.maxUsersNumber + self.n, self.eventNumber, self.tau, self.n))
+    self.eventList.add(GenerateEvent(self.network, self.eventList, self.tau[0], self.t, self.maxUsersNumber + 100, self.eventNumber, self.tau, self.n)) #self.maxUsersNumber + self.n
     while self.usersServed < self.maxUsersNumber:
 
       event = self.eventList.pop()
@@ -81,7 +116,7 @@ class Simulator:
         self.usersServedResult.append(self.usersServed)
         self.usersInSystem.append(self.network.getUserListSize() + self.network.getBufferSize())
 
-       
+    print(str(self.network.getNewUserNumber()))
     # plt.xlabel("Czas symulacji [s]")
     # plt.ylabel("Liczba użytkowników w systemie i kolejce")
     # plt.plot(x, y1, label = "system")

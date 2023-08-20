@@ -7,10 +7,12 @@ import numpy as np
 system('cls')
 
 alfa = 3
-#_lambda = [0.0010, 0.0011, 0.0012, 0.0013, 0.0014]
-_lambda = [1.5]
-simulations = 1 # 10
-maxUsersNumber = 300
+_lambda = [1.14, 1.16, 1.18, 1.2, 1.22]
+# _lambda = [1.16, 1.17, 1.18, 1.19, 1.20] #, 1.2, 1.22, 1.24]
+# _lambda = [0.32, 0.34, 0.36, 0.38, 0.4]
+# _lambda = [1.18, 1.2, 1.22, 1.24, 1.26]
+simulations = 20 # 10
+maxUsersNumber = 400
 # x = np.zeros(simulations)
 # y = np.zeros(simulations)
 
@@ -20,8 +22,8 @@ for k in range(len(_lambda)):
     userSum = np.zeros(maxUsersNumber) #Pomocnicza do stworzenia średniej
     userAvg = np.zeros(maxUsersNumber) #Średnia liczba użytkowników w systemie
 
-    for simulationNumber in range(0, simulations):
-        simulator = Simulator(simulationNumber * (k + 1), _lambda[k], alfa, maxUsersNumber)
+    for simulationNumber in range(1, simulations + 1):
+        simulator = Simulator(simulationNumber + k * simulations, _lambda[k], alfa, maxUsersNumber)
         simulator.mainLoop()
         #print(simulator.usersInSystem)
         print("sim" + str(k*simulations + simulationNumber) + " over")
