@@ -1,4 +1,3 @@
-import queue
 from User import User
 
 class Network:
@@ -18,6 +17,8 @@ class Network:
         self.newUserNumber = -1
         self.userBuffer = 0
         self.servedUsers = 0
+        self.switchedUsers = 0
+        self.disconnectedUsers = 0
 
     def createUser(self, isFromBuffer):
         self.newUserNumber = self.newUserNumber + 1
@@ -45,14 +46,24 @@ class Network:
         for i in range(len(self.userList)):
             if self.userList[i].userID == userID:
                 self.userList[i].report(self.t)
-                return self.userList[i].isActive()
+                userState = self.userList[i].getUserState()
+                # if userState == "Active":
+                #     return userState
+                if userState == "Switching":
+                    self.switchedUsers = self.switchedUsers + 1 
+                    # return userState
+                elif userState == "Disconnected":
+                    self.disconnectedUsers = self.disconnectedUsers + 1 
+                    # return userState
+                elif userState == "Served":
+                    self.servedUsers = self.servedUsers + 1 
+                return userState
     
     def destroyUser(self, userID):
         for i in range(len(self.userList)):# - 1):
             if self.userList[i].userID == userID:
-                #self.userList.pop(i)
-                user = self.userList.pop(i)
-                self.servedUsers = self.servedUsers + 1   
+                self.userList.pop(i)
+                # self.servedUsers = self.servedUsers + 1   
                 # print("delete user " + str(user.getUserID()))
                 break
     
@@ -65,11 +76,15 @@ class Network:
     def getServedUsers(self):
         return self.servedUsers
     
+    def getDisconnectedUsers(self):
+        return self.disconnectedUsers / self.servedUsers
+    
+    def getSwitchedUsers(self):
+        return self.switchedUsers / self.servedUsers
+    
     def getNewUserNumber(self):
         return self.newUserNumber
     
-
-
 
         
 

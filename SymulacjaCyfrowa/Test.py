@@ -4,6 +4,7 @@ from sortedcontainers import SortedList
 from RandomNumberGenerator import RandomNumberGenerator 
 from statistics import mean 
 
+
 _lambda = 1.5
 generator = RandomNumberGenerator(_lambda)
 

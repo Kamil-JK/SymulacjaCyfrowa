@@ -75,10 +75,15 @@ class Simulator:
       # y2.append(self.network.getBufferSize())
       # y3.append(self.network.getUserListSize() + self.network.getBufferSize())
       # x.append(clock)
+      
       if event.execute():
         self.usersServed = self.usersServed + 1
         self.usersServedResult.append(self.usersServed)
         self.usersInSystem.append(self.network.getUserListSize() + self.network.getBufferSize())
+
+    print("disconnected: " + str(self.network.getDisconnectedUsers()))
+    print("switched: " + str(self.network.getSwitchedUsers()))
+    print("served: " + str(self.network.getServedUsers()))
 
     # plt.xlabel("Czas symulacji [s]")
     # plt.ylabel("Liczba użytkowników w systemie i kolejce")

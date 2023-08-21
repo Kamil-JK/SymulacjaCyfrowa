@@ -35,15 +35,15 @@ class ReportEvent(Event):
     def execute(self):
         #print("Report event executing, userID: " + str(self.userID) + ", time: " + str(self.simulationTime))
         reportTime = self.t  + self.simulationTime
-        userIsActive = self.network.reportUser(self.userID)
-        if userIsActive:                 # if user in system
+        userState = self.network.reportUser(self.userID)
+        if userState == "Active" or userState == "Switching":                 # if user in system
             self.eventList.add(ReportEvent(self.network, self.eventList, reportTime, self.t, self.maxUsersNumber, self.userID, self.n))
-        elif userIsActive == False:      # if user deleted
+        else:      # if user deleted
             self.network.destroyUser(self.userID)
             if self.network.getBufferSize() >= 1 and self.network.getUserListSize() < self.n and self.network.getNewUserNumber() + 1 <= self.maxUsersNumber:
                 newUserID = self.network.createUser(True)
                 self.eventList.add(ReportEvent(self.network, self.eventList, reportTime, self.t, self.maxUsersNumber, newUserID, self.n))
-                               
-            return True
+            if userState == "Served":       
+                return True
         return False
 

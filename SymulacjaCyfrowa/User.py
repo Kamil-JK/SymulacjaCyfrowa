@@ -22,34 +22,35 @@ class User:
         self.currentBS = 1
         self.ttt_1_2 = 0
         self.ttt_2_1 = 0
-        self.active = True
+        self.state = "Active"
         logging.debug("Create user " + str(self.userID))
 
     def getUserID(self):
         return self.userID
     
-    def isActive(self):
-        return self.active
+    def getUserState(self):
+        return self.state
 
     def report(self, t):
+        self.state = "Active"
         self.x = self.x + self.v * t
         powerBS1 = 4.56 - 22 * math.log10(self.x) + self.s1
         powerBS2 = 4.56 - 22 * math.log10(self.l - self.x) + self.s2
-
+        
         if self.x >= self.l - self.x0:
             logging.debug("Delete user " + str(self.userID)+ " - reached destination in " + str(self.x) + "m")
-            self.active = False
+            self.state = "Served"
 
         elif self.currentBS == 2:
             if powerBS2 - powerBS1 >= self.delta:
                 logging.debug("Delete user" + str(self.userID)+ " - delta condition in " + str(self.x) + "m")
-                print("delta2")
-                self.active = False
+                self.state = "Disconnected"
             elif powerBS1 - powerBS2 >= self.alfa:
                 self.ttt_1_2 = 0
                 self.ttt_2_1 = self.ttt_2_1 + t            
                 if(self.ttt_2_1 >= self.ttt):
                     logging.debug("Switch to BS1")
+                    self.state = "Switching"
                     self.currentBS = 1
                     self.ttt_1_2 = 0
             else:
@@ -60,13 +61,13 @@ class User:
             if powerBS1 - powerBS2 >= self.delta:
                 logging.debug("Delete user" + str(self.userID)+ " - delta condition in " + str(self.x) + "m")
                 print("delta1")
-                self.active = False      
+                self.state = "Disconnected"     
             elif powerBS2 - powerBS1 >= self.alfa:
                 self.ttt_1_2 = 0
                 self.ttt_2_1 = self.ttt_2_1 + t            
                 if(self.ttt_2_1 >= self.ttt):
                     logging.debug("Switch to BS2 user" + str(self.userID)+ " in " + str(self.x) + "m")
-                    # print("Switch user" + str(self.userID)+" "+ str(self.x))
+                    self.state = "Switching"
                     self.currentBS = 2
                     self.ttt_2_1 = 0
             else:
