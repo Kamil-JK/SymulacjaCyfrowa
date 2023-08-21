@@ -9,7 +9,7 @@ system('cls')
 alfa = 3
 _lambda = [1.14, 1.16, 1.18, 1.2, 1.22]
 # _lambda = [1.16, 1.17, 1.18, 1.19, 1.20] #, 1.2, 1.22, 1.24]
-simulations = 3 # liczba symulacji dla jednej wartości lambda
+simulations = 2 # liczba symulacji dla jednej wartości lambda
 maxUsersNumber = 400 # maksymalna liczba obsłużonych użytkowników wchodzących do wykresu
 initialPhase = 100 # faza początkowa
 firstSeed = 12345 # pierwsze ziarno generatora

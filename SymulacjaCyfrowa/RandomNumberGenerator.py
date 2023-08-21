@@ -11,8 +11,6 @@ class RandomNumberGenerator:
     
     def __init__(self, _lambda, seedUniform): #, seedGauss):
         self.seedUniform = seedUniform
-        # self.seedExponential = seedExponential
-        # self.seedGauss = seedGauss
         self._lambda = _lambda
 
     def randUniform(self):

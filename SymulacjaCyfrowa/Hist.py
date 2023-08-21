@@ -12,14 +12,14 @@ gauss = []
 #     exponential.append(generator.randExp())
 #     gauss.append(generator.randGauss(0, 4))
 
-generator = RandomNumberGenerator(0.2)
-for i in range(1, 10000):
-    uniform.append(generator.randUniform(i))
-    exponential.append(generator.randExponential(i))
+generator = RandomNumberGenerator(1.2, 12345)
+for i in range(1, 50000):
+    uniform.append(generator.randUniform())
+    exponential.append(generator.randExponential())
     gauss.append(generator.randGauss(0, 4))
 
 plt.figure(1)
-plt.hist(uniform, bins=550)
+plt.hist(uniform, bins=50)
 plt.title("Rozkład równomierny")
 plt.xlabel("Wartość")
 plt.ylabel("Liczba wystąpień")
