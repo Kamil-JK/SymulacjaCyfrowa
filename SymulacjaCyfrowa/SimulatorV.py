@@ -24,7 +24,7 @@ import numpy as np
 
 class Simulator:
 
-  def __init__(self, simulationNumber, _lambda, alfa, maxUsersNumber, firstSeed):
+  def __init__(self, simulationNumber, _lambda, alfa, maxUsersNumber, firstSeed, v):
 
     self.maxUsersNumber = maxUsersNumber
     self.firstSeed = firstSeed
@@ -53,7 +53,7 @@ class Simulator:
 
     for i in range(self.maxUsersNumber + 100): #+100 - z powodu spadku na końcu wykresu
       self.tau.append(self.generator.randExponential())
-      self.v.append(5 + 45 * self.generator.randUniform()) # [5,50]m/s
+      self.v.append(v) # [5,50]m/s
       self.s1.append(self.generator.randGauss(0, 4))
       self.s2.append(self.generator.randGauss(0, 4))
 
@@ -61,21 +61,10 @@ class Simulator:
 
   def mainLoop(self):
 
-    # clock = 0
-    # x = []
-    # y1 = []
-    # y2 = []
-    # y3 = []
-
     self.eventList.add(GenerateEvent(self.network, self.eventList, self.tau[0], self.t, self.maxUsersNumber + 100, self.eventNumber, self.tau, self.n)) #self.maxUsersNumber + self.n
     while self.usersServed < self.maxUsersNumber:
 
       event = self.eventList.pop()
-      # clock = event.getSimulationTime()/1000
-      # y1.append(self.network.getUserListSize())
-      # y2.append(self.network.getBufferSize())
-      # y3.append(self.network.getUserListSize() + self.network.getBufferSize())
-      # x.append(clock)
 
       if event.execute():
         self.usersServed = self.usersServed + 1
@@ -85,19 +74,6 @@ class Simulator:
     self.disconnectedUsers = self.network.getDisconnectedUsers()
     self.switchedUsers = self.network.getSwitchedUsers()
     self.avgSwitchPosition = self.network.getMeanSwitchingPosition()
-
-    # print("disconnected: " + str(self.network.getDisconnectedUsers()))
-    # print("switched: " + str(self.network.getSwitchedUsers()))
-    # print("served: " + str(self.network.getServedUsers()))
-    # print("switch pos mean: " + str(self.network.getMeanSwitchingPosition()))
-
-    # plt.xlabel("Czas symulacji [s]")
-    # plt.ylabel("Liczba użytkowników w systemie i kolejce")
-    # plt.plot(x, y1, label = "system")
-    # plt.plot(x, y2, label = "kolejka")
-    # plt.plot(x, y3, label = "razem")
-    # plt.legend()
-    # plt.show()
 
       
 

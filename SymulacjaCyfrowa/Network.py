@@ -1,4 +1,5 @@
 from User import User
+import statistics
 
 class Network:
     
@@ -19,6 +20,7 @@ class Network:
         self.servedUsers = 0
         self.switchedUsers = 0
         self.disconnectedUsers = 0
+        self.switchPosition = []
 
     def createUser(self, isFromBuffer):
         self.newUserNumber = self.newUserNumber + 1
@@ -29,10 +31,7 @@ class Network:
         self.userList.append(User(v, s1, s2, self.x, self.l, self.newUserNumber, self.ttt, self.alfa, self.delta))
         if isFromBuffer:
             self.userBuffer = self.userBuffer - 1
-        #     print("from buffer user, buffer size = " + str(self.userBuffer))
-            # print("create from buffer user " + str(self.newUserNumber) + " and buffer size = " + str(self.userBuffer))
-        # else:
-            # print("create " + str(self.newUserNumber))
+
         return self.newUserNumber
         
     def userToBuffer(self):
@@ -47,14 +46,12 @@ class Network:
             if self.userList[i].userID == userID:
                 self.userList[i].report(self.t)
                 userState = self.userList[i].getUserState()
-                # if userState == "Active":
-                #     return userState
+
                 if userState == "Switching":
                     self.switchedUsers = self.switchedUsers + 1 
-                    # return userState
+                    self.switchPosition.append(self.userList[i].getUserPosition())
                 elif userState == "Disconnected":
-                    self.disconnectedUsers = self.disconnectedUsers + 1 
-                    # return userState
+                    self.disconnectedUsers = self.disconnectedUsers + 1                   
                 elif userState == "Served":
                     self.servedUsers = self.servedUsers + 1 
                 return userState
@@ -81,6 +78,9 @@ class Network:
     
     def getSwitchedUsers(self):
         return self.switchedUsers / self.servedUsers
+    
+    def getMeanSwitchingPosition(self):
+        return statistics.mean(self.switchPosition)
     
     def getNewUserNumber(self):
         return self.newUserNumber

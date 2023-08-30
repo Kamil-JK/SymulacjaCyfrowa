@@ -30,13 +30,16 @@ class User:
     
     def getUserState(self):
         return self.state
+    
+    def getUserPosition(self):
+        return self.x
 
     def report(self, t):
         self.state = "Active"
         self.x = self.x + self.v * t
         powerBS1 = 4.56 - 22 * math.log10(self.x) + self.s1
         powerBS2 = 4.56 - 22 * math.log10(self.l - self.x) + self.s2
-        
+
         if self.x >= self.l - self.x0:
             logging.debug("Delete user " + str(self.userID)+ " - reached destination in " + str(self.x) + "m")
             self.state = "Served"
@@ -60,7 +63,6 @@ class User:
         elif self.currentBS == 1:
             if powerBS1 - powerBS2 >= self.delta:
                 logging.debug("Delete user" + str(self.userID)+ " - delta condition in " + str(self.x) + "m")
-                print("delta1")
                 self.state = "Disconnected"     
             elif powerBS2 - powerBS1 >= self.alfa:
                 self.ttt_1_2 = 0
